@@ -863,3 +863,171 @@ Received Import Request.
   path: Assets/Infima Games/Low Poly Shooter Pack/Art/Materials/Environment/M_Grid_Showcase_Cube.mat
   artifactKey: Guid(e9299e6ef4a663640855cb5543acfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Materials/Environment/M_Grid_Showcase_Cube.mat using Guid(e9299e6ef4a663640855cb5543acfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232716b2f2fea13f6692957bbf01853d') in 0.010309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.969952 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_02.fbx
+  artifactKey: Guid(e5e1aebe4e6b40743ab0be078564260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_02.fbx using Guid(e5e1aebe4e6b40743ab0be078564260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f8563e262923867c89cd524440aabe') in 0.174782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_01.fbx
+  artifactKey: Guid(182b7f11db452bc458d35a6c9eced06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_01.fbx using Guid(182b7f11db452bc458d35a6c9eced06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99178adb0dc0212e7777fd0c007e7257') in 0.111032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_02.fbx
+  artifactKey: Guid(20d5945209bdc804891f29a868e7d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_02.fbx using Guid(20d5945209bdc804891f29a868e7d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ea799b4adc7e09e5cc7e988fca8aa7') in 0.099746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_05.fbx
+  artifactKey: Guid(18bd21b59e7670a4cab7bd70b7565cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_05.fbx using Guid(18bd21b59e7670a4cab7bd70b7565cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1e690e49b4aed213931584f209b9a') in 0.102659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_01.fbx
+  artifactKey: Guid(b3236689d20e81b4493519925058781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_01.fbx using Guid(b3236689d20e81b4493519925058781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa23c19bb535a632ae013e719d99188') in 0.084626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_02.fbx
+  artifactKey: Guid(776f88d95c576834c81e01185e23a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_02.fbx using Guid(776f88d95c576834c81e01185e23a857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59634c2419d4247fa9bdd84ace7cb52') in 0.092216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_rocket_launcher_01.fbx
+  artifactKey: Guid(e8f19ec429446654085cd54ca15a6350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_rocket_launcher_01.fbx using Guid(e8f19ec429446654085cd54ca15a6350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc6db19f77999a549bfe6450d74fd11') in 0.065760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_shotgun_01.fbx
+  artifactKey: Guid(8bdb3f4eab1102e49a2d340827a72d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_shotgun_01.fbx using Guid(8bdb3f4eab1102e49a2d340827a72d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e41d450181fdc45303b6f58082e801a') in 0.081833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_04.fbx
+  artifactKey: Guid(21ec48bb14b3d6243b8b764b854a8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_04.fbx using Guid(21ec48bb14b3d6243b8b764b854a8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ad0b6d6bd9ada2f35019f2e6e9e9bd') in 0.096548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_03.fbx
+  artifactKey: Guid(c3c8f58a520431048a9de2e4a8023757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_03.fbx using Guid(c3c8f58a520431048a9de2e4a8023757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d034f451637c546486200cacc4f162') in 0.095325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_03.fbx
+  artifactKey: Guid(aee7ab4e220da554499ec058d8da6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_03.fbx using Guid(aee7ab4e220da554499ec058d8da6ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21734660c441650beb088089c365ece') in 0.114725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_03.fbx
+  artifactKey: Guid(b01e82e982d29ed4391dc0bb216ca678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_sniper_03.fbx using Guid(b01e82e982d29ed4391dc0bb216ca678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d018fe6589c017bdf88b84d99cfbf7e') in 0.070740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_grenade_launcher_01.fbx
+  artifactKey: Guid(0077f046c5d9e1547a67749ce5870c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_grenade_launcher_01.fbx using Guid(0077f046c5d9e1547a67749ce5870c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedbf35b0b2e9d5ba5c10faa527ee908') in 0.083279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_01.fbx
+  artifactKey: Guid(56ec0b9a5b8762642811ea26a5242e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_01.fbx using Guid(56ec0b9a5b8762642811ea26a5242e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd93c2e652ea22890b3abae4379fb1d') in 0.089150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_02.fbx
+  artifactKey: Guid(a95d583089688544a862556eafd1ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_assault_rifle_02.fbx using Guid(a95d583089688544a862556eafd1ba53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d76e6c7be29fd6e5bd55f7b6027d6cd') in 0.101950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Objects/Boxes/SM_Box_Cargo.fbx
+  artifactKey: Guid(a022327c6467b9e47801052f55d5e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Objects/Boxes/SM_Box_Cargo.fbx using Guid(a022327c6467b9e47801052f55d5e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cabbdd0af95b6fc3e31802cd2751ed5') in 0.031685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Meshes/Character/(Legacy)SK_TP_CH.fbx
+  artifactKey: Guid(3a0fc50da26e55e49a89c167d5562115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Meshes/Character/(Legacy)SK_TP_CH.fbx using Guid(3a0fc50da26e55e49a89c167d5562115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8430332cc5e418f4f9b1196a17eb9c2c') in 0.044070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Desert_Terrain_01.fbx
+  artifactKey: Guid(311d00f267f21274bbb880e9363817aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Desert_Terrain_01.fbx using Guid(311d00f267f21274bbb880e9363817aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b067f95a766eb7a2fddd0f6d5c91dd14') in 0.138628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Warzone_Terrain_01.fbx
+  artifactKey: Guid(96448f6dacac86543859e81a09e58ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Warzone_Terrain_01.fbx using Guid(96448f6dacac86543859e81a09e58ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48037dfabd99c7bc6763dace396203fc') in 0.023623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_03.fbx
+  artifactKey: Guid(181b9131338982b48bcf5ccf538d6a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_03.fbx using Guid(181b9131338982b48bcf5ccf538d6a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345c4d6d9bb7ef659cf531a482a3d49') in 0.088996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Warzone_Terrain_02.fbx
+  artifactKey: Guid(b1db32e400bad724394d92f023343900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Warzone_Terrain_02.fbx using Guid(b1db32e400bad724394d92f023343900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e9480a7651d26d973db5eaf65f2db9') in 0.018177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Demo/(Legacy)SM_Demo_Plane.fbx
+  artifactKey: Guid(05726e63375d8ae418fa267345bccb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Demo/(Legacy)SM_Demo_Plane.fbx using Guid(05726e63375d8ae418fa267345bccb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b36069e2e017bebeddfd72fec8ef6c') in 0.065319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Desert_Terrain_02.fbx
+  artifactKey: Guid(b1f970e578392684092024bec03d363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Terrains/SM_Demo_Desert_Terrain_02.fbx using Guid(b1f970e578392684092024bec03d363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30161fb5a2985a760530a4ee4d43b0cf') in 0.025220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317750 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Character/SK_FP_CH_Default_Cubic.fbx
+  artifactKey: Guid(b0299d1388028864e9874bcacb6c2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Character/SK_FP_CH_Default_Cubic.fbx using Guid(b0299d1388028864e9874bcacb6c2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24136cf21ef2802a9b439bc8a5e74c') in 0.027790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Objects/Misc/SM_Binoculars.fbx
+  artifactKey: Guid(8f3f6c1a7c37c294cb3885c2b611e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Environment/Objects/Misc/SM_Binoculars.fbx using Guid(8f3f6c1a7c37c294cb3885c2b611e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadc43d440c09cc81ab82daa009a1b48') in 0.027653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Demo/SM_Cube.fbx
+  artifactKey: Guid(96af6349713f9cd4ea4c829bf26d0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Demo/SM_Cube.fbx using Guid(96af6349713f9cd4ea4c829bf26d0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0117c2e7ed1c37be7074468b14bbe5f') in 0.019133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Character/SK_TP_CH_Default_Cubic.fbx
+  artifactKey: Guid(b6733250115a09f439345c62de5d010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Character/SK_TP_CH_Default_Cubic.fbx using Guid(b6733250115a09f439345c62de5d010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1646eb963a6758778fb6162a35c08748') in 0.095782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 269.634653 seconds.
+  path: Assets/POLYGON-LiteHalloweenPack/Materials/Emission_Blue.mat
+  artifactKey: Guid(c7e99bea3cbfa6140ba6a90aab95dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON-LiteHalloweenPack/Materials/Emission_Blue.mat using Guid(c7e99bea3cbfa6140ba6a90aab95dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9af983c87f372ce66122f6ee5af019d') in 0.009457 seconds 
