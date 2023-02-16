@@ -103,6 +103,16 @@ public static class Progress
         return PlayerPrefs.GetFloat("volume", 1);
     }
 
+    public static void SaveMusicVolume(float value)
+    {
+        PlayerPrefs.SetFloat("MusicVolume", value);
+    }
+
+    public static float LoadMusicVolume()
+    {
+        return PlayerPrefs.GetFloat("MusicVolume", 1);
+    }
+
     [Serializable]
     public class WeaponsSelected
     {
