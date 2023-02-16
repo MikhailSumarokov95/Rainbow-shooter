@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5715204242641147427}
   - component: {fileID: 8718863802942183814}
   - component: {fileID: 6853167081940168012}
-  - component: {fileID: 2505636533670149454}
+  - component: {fileID: 6292134625811659657}
+  - component: {fileID: 4650287226314614853}
   m_Layer: 0
   m_Name: Hous_02
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,10 +54,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +85,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2505636533670149454
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6292134625811659657
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +96,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8759037681059038221, guid: 9f94fe12e237fec498a43390c0d63b23, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 4.5213766, y: 5.952358, z: 4.291732}
+  m_Center: {x: -0.007854107, y: 2.9761746, z: 0.009756085}
+--- !u!65 &4650287226314614853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4907704608964349081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0406106, y: 5.952358, z: 4.856962}
+  m_Center: {x: -0.32187527, y: 2.9761746, z: 0.26097012}

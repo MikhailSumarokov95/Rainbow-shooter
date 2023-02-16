@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 217276019417658028}
   - component: {fileID: 3795462419985644809}
   - component: {fileID: 1389580111946598851}
-  - component: {fileID: 8148119706394277242}
+  - component: {fileID: 5294382071308834358}
   m_Layer: 0
   m_Name: Hous_011
   m_TagString: Untagged
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,10 +53,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +84,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8148119706394277242
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5294382071308834358
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +95,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8663089172722915016, guid: b262c3d0574914448b41db605d11b26e, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 4.2753077, y: 10.03256, z: 3.8524885}
+  m_Center: {x: 0.06429529, y: 5.008769, z: 0.15435076}

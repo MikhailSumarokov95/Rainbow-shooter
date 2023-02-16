@@ -11,7 +11,13 @@ GameObject:
   - component: {fileID: 2326435971734640665}
   - component: {fileID: 1722330702057314236}
   - component: {fileID: 3459333975413154678}
-  - component: {fileID: 659515647136155057}
+  - component: {fileID: 5775615634301405079}
+  - component: {fileID: 2790925732021118642}
+  - component: {fileID: 7420965815603053419}
+  - component: {fileID: 7857123991608211850}
+  - component: {fileID: 1839973520831525152}
+  - component: {fileID: 4285538015520891813}
+  - component: {fileID: 8282825706518310421}
   m_Layer: 0
   m_Name: Hous_09
   m_TagString: Untagged
@@ -29,6 +35,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,10 +59,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +89,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &659515647136155057
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5775615634301405079
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +100,91 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2335093506674445840, guid: af36bf2095c051c40aabbde7ad03afee, type: 3}
+  m_Radius: 5.081391
+  m_Height: 13.223572
+  m_Direction: 1
+  m_Center: {x: -0.08082152, y: 1.4949398, z: -0.46000004}
+--- !u!136 &2790925732021118642
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.7000003
+  m_Height: 7.1942997
+  m_Direction: 1
+  m_Center: {x: 6.3899946, y: 2.1364508, z: 2.34}
+--- !u!136 &7420965815603053419
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.7000003
+  m_Height: 7.1942997
+  m_Direction: 1
+  m_Center: {x: 10.44, y: 2.1364508, z: 3.75}
+--- !u!136 &7857123991608211850
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.4
+  m_Height: 8.237273
+  m_Direction: 1
+  m_Center: {x: 6.289988, y: 1.614964, z: -5.5399876}
+--- !u!136 &1839973520831525152
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.3
+  m_Height: 8.237273
+  m_Direction: 1
+  m_Center: {x: -3.93, y: 1.614964, z: -7.16}
+--- !u!136 &4285538015520891813
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.3
+  m_Height: 8.237273
+  m_Direction: 1
+  m_Center: {x: -8.36, y: 1.614964, z: 3.76}
+--- !u!136 &8282825706518310421
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099313942755754659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.7
+  m_Height: 8.237273
+  m_Direction: 1
+  m_Center: {x: -8.74, y: 1.614964, z: -7.45}

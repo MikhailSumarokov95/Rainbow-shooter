@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2401054143244392960}
   - component: {fileID: 1656649085328872869}
   - component: {fileID: 3537980861411500399}
-  - component: {fileID: 5815053126310752421}
+  - component: {fileID: 8300566080060292822}
   m_Layer: 0
   m_Name: Gravestone_04
   m_TagString: Untagged
@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,10 +53,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +84,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5815053126310752421
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8300566080060292822
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +95,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9154206966626100216, guid: 84c69053ce5cdef4b90870dd799421fd, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.86321723, y: 1.4577885, z: 0.2473619}
+  m_Center: {x: -0.0000005364418, y: 0.72889423, z: 0}
