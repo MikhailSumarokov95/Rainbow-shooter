@@ -9,8 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 669980243938088076, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
         type: 3}
+      propertyPath: cost
+      value: 305
+      objectReference: {fileID: 0}
+    - target: {fileID: 669980243938088076, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 669980243938088076, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 669980243938088076, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: isBattlepass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3438908114049550074, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
         type: 3}
@@ -60,7 +75,7 @@ PrefabInstance:
     - target: {fileID: 3438908114059340060, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3438908114059340060, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
         type: 3}
@@ -95,6 +110,51 @@ PrefabInstance:
     - target: {fileID: 3438908114059340060, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: gripIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: laserIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: scopeIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: muzzleIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8785017196919414568, guid: 8e4a73c62bb7a404db9c33a2c4369c16,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -7,6 +7,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: gripIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: laserIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: muzzleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551230045697249922, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: magazineIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197157201893670, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: cost
+      value: 9500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197157201893670, guid: d3308534d30856e42b7a585baa7a886b,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6035197157201893670, guid: d3308534d30856e42b7a585baa7a886b,
         type: 3}
       propertyPath: m_Enabled
@@ -60,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 8445401694593213622, guid: d3308534d30856e42b7a585baa7a886b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694593213622, guid: d3308534d30856e42b7a585baa7a886b,
         type: 3}

@@ -14,7 +14,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6400477402031576510, guid: f7d11b288d7f05b4799e60acb906f217,
         type: 3}
+      propertyPath: cost
+      value: 314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: isBattlepass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: scopeIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: muzzleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: f7d11b288d7f05b4799e60acb906f217,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7350911500861229772, guid: f7d11b288d7f05b4799e60acb906f217,
@@ -50,7 +100,7 @@ PrefabInstance:
     - target: {fileID: 7350911500861229772, guid: f7d11b288d7f05b4799e60acb906f217,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7350911500861229772, guid: f7d11b288d7f05b4799e60acb906f217,
         type: 3}

@@ -14,7 +14,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6400477402031576510, guid: 1e8358d68aabf3b43a3af3491d2ce387,
         type: 3}
+      propertyPath: cost
+      value: 313
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400477402031576510, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: isBattlepass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: scopeIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061427760487870545, guid: 1e8358d68aabf3b43a3af3491d2ce387,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7350911500861229772, guid: 1e8358d68aabf3b43a3af3491d2ce387,
@@ -50,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 7350911500861229772, guid: 1e8358d68aabf3b43a3af3491d2ce387,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7350911500861229772, guid: 1e8358d68aabf3b43a3af3491d2ce387,
         type: 3}

@@ -30,22 +30,22 @@ PrefabInstance:
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1500
+      value: 1300
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1500
+      value: 1300
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1500
+      value: 1300
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 350
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
@@ -94,7 +94,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8747414128452121418, guid: 472df6f8da21c7845bf1bafde3566634,
         type: 3}
+      propertyPath: cost
+      value: 20000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747414128452121418, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747414128452121418, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: gripIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: laserIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: muzzleIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: 472df6f8da21c7845bf1bafde3566634,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

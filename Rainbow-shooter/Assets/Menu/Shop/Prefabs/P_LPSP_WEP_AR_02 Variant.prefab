@@ -7,10 +7,60 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: gripIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: scopeIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001368087282464131, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: magazineIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197157201893670, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: cost
+      value: 301
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197157201893670, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6035197157201893670, guid: f985fca8d5251c049ab9579d483160b4,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6035197157201893670, guid: f985fca8d5251c049ab9579d483160b4,
+        type: 3}
+      propertyPath: isBattlepass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694583589712, guid: f985fca8d5251c049ab9579d483160b4,
         type: 3}
@@ -60,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 8445401694593213622, guid: f985fca8d5251c049ab9579d483160b4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8445401694593213622, guid: f985fca8d5251c049ab9579d483160b4,
         type: 3}

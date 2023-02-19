@@ -328,6 +328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isShop: 0
   cost: 0
+  isBattlepass: 0
   weaponName: SMG 01
   multiplierMovementSpeed: 1
   automatic: 1
@@ -730,6 +731,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3fb9a16929ebae44588561efa31a0c81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d353f81c53a0f643a20b0ec171ca4fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 3fb9a16929ebae44588561efa31a0c81,
         type: 3}
       propertyPath: m_Name
@@ -837,6 +843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_LPSP_WEP_ATT_Lasers
       objectReference: {fileID: 0}
+    - target: {fileID: 3896876507191117220, guid: afa31145111d8f64e8ffb5ca3a8e739b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b00d90b6d5ac4b5438808f357f859155, type: 2}
     - target: {fileID: 8775069282209267756, guid: afa31145111d8f64e8ffb5ca3a8e739b,
         type: 3}
       propertyPath: sprite
@@ -937,6 +948,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6a0e8f86fe3df7d4fb7852cc80a8067f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d353f81c53a0f643a20b0ec171ca4fd, type: 2}
     - target: {fileID: 919132149155446097, guid: 6a0e8f86fe3df7d4fb7852cc80a8067f,
         type: 3}
       propertyPath: m_Name
@@ -1317,7 +1333,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5d353f81c53a0f643a20b0ec171ca4fd, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6228105118461251015, guid: c472be678311843468e98214f36dec77, type: 3}
+    - {fileID: 603904550305514138, guid: c472be678311843468e98214f36dec77, type: 3}
+    - {fileID: 7251540797147615044, guid: c472be678311843468e98214f36dec77, type: 3}
+    - {fileID: 3490015173990804022, guid: c472be678311843468e98214f36dec77, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c472be678311843468e98214f36dec77, type: 3}
 --- !u!114 &814281441653723145 stripped
 MonoBehaviour:

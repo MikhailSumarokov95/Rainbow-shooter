@@ -45,7 +45,7 @@ PrefabInstance:
     - target: {fileID: 6446807073419998744, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
         type: 3}
@@ -55,7 +55,7 @@ PrefabInstance:
     - target: {fileID: 6446807073419998744, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6446807073419998744, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
         type: 3}
@@ -94,7 +94,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8747414128452121418, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
         type: 3}
+      propertyPath: cost
+      value: 318
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747414128452121418, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747414128452121418, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747414128452121418, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: isBattlepass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: gripIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: laserIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: scopeIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: muzzleIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9116845346348752071, guid: aaae9b0e0cb7c174a8b680c0ed75745f,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

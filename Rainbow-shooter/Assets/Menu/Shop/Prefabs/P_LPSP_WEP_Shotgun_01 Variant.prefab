@@ -50,7 +50,7 @@ PrefabInstance:
     - target: {fileID: 5836565387966040056, guid: e1be29c2c2f53c947819b92d236806c7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5836565387966040056, guid: e1be29c2c2f53c947819b92d236806c7,
         type: 3}
@@ -94,7 +94,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8137163820050006698, guid: e1be29c2c2f53c947819b92d236806c7,
         type: 3}
+      propertyPath: cost
+      value: 8000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137163820050006698, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: isShop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137163820050006698, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: gripIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: laserIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: gripIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: laserIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: scopeIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: muzzleIndexRandom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578661464601570599, guid: e1be29c2c2f53c947819b92d236806c7,
+        type: 3}
+      propertyPath: magazineIndexRandom
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
