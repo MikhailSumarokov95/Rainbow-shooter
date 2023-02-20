@@ -15,7 +15,7 @@ C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57399
+59015
 Successfully changed project path to: C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7896] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 59661284 [EditorId] 59661284 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5872] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1795398725 [EditorId] 1795398725 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7896] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 59661284 [EditorId] 59661284 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5872] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1795398725 [EditorId] 1795398725 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 173.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 179.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,79 +67,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006958 seconds.
+Registered in 0.007114 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 177.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 180.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (660ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (499ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (338ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (177ms)
+				RefreshPlugins (181ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007721 seconds.
+Registered in 0.008103 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 169.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
+- Completed reload, in  1.330 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1306ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (645ms)
+			SetupLoadedEditorAssemblies (656ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (170ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (281ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4773 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (30.2 KB). Loaded Objects now: 5253.
-Memory consumption went from 267.0 MB to 267.0 MB.
-Total: 3.603800 ms (FindLiveObjects: 0.338000 ms CreateObjectMapping: 0.275700 ms MarkObjects: 2.963900 ms  DeleteObjects: 0.025600 ms)
+Memory consumption went from 267.1 MB to 267.0 MB.
+Total: 3.588600 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.249900 ms MarkObjects: 2.958900 ms  DeleteObjects: 0.025000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,1875 +166,321 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 344271.022636 seconds.
-  path: Assets/Characters/Bot/Animation/Models
-  artifactKey: Guid(01832b500bafed241accaa45fb158767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Models using Guid(01832b500bafed241accaa45fb158767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ac7ab62765e737105f28aad72bd90') in 0.011558 seconds 
+  Time since last request: 406996.044619 seconds.
+  path: Assets/Characters/Bot/Models/Body.001.mat
+  artifactKey: Guid(8b01de7e19ea58f4fa3af66e7c61fcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Body.001.mat using Guid(8b01de7e19ea58f4fa3af66e7c61fcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafc60d936fb537e5fccbc094ddbdef1') in 0.113962 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.769178 seconds.
-  path: Assets/Characters/Bot/Animation/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de071789619865ec63d1ff1352854637') in 0.153727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Characters/Bot/Animation/Models/Kissy Missy.fbx
-  artifactKey: Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Models/Kissy Missy.fbx using Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291c823993bf650222784ce5ec11edcd') in 0.032406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Bot/Animation/Models/Mommy.fbx
-  artifactKey: Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Models/Mommy.fbx using Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447c8c587be2d4bf53ea3660689d0a64') in 0.018749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.073777 seconds.
-  path: Assets/Characters/Bot/Animation/Texture
-  artifactKey: Guid(09214dd5622167a44a37d8028ed751d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture using Guid(09214dd5622167a44a37d8028ed751d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1266cf673c95a906e9a87cfbc8fb93c3') in 0.005988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.158599 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-green.png
-  artifactKey: Guid(83fbae1df797ac24ebce86238bc363a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-green.png using Guid(83fbae1df797ac24ebce86238bc363a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828098550904d6f6727ebedfc4abec4') in 0.024495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-purple.png
-  artifactKey: Guid(77ea22be8fcebfd439e86c8058ecd587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-purple.png using Guid(77ea22be8fcebfd439e86c8058ecd587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d31180bd5a55fa49f32e6cecf697ed') in 0.010112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-yellow.png
-  artifactKey: Guid(5641f77637158cf448ec7d7bb2a6f172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-yellow.png using Guid(5641f77637158cf448ec7d7bb2a6f172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e1e808b89771626f9e03af58764418') in 0.010070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-orange.png
-  artifactKey: Guid(529070212dcb3a740b0a6cee987eb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-orange.png using Guid(529070212dcb3a740b0a6cee987eb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3107d4e203c91c9d2142f9b0d404b1') in 0.009155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-rainbow.png
-  artifactKey: Guid(61cbe328e244eef4e9c837e2ce403833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-rainbow.png using Guid(61cbe328e244eef4e9c837e2ce403833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384bef230ae1f3498e59d8eb282a3c14') in 0.009271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Characters/Bot/Animation/Texture/Huggy-red.png
-  artifactKey: Guid(78c875b0ac470094c8e2ccc5ee47ff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Texture/Huggy-red.png using Guid(78c875b0ac470094c8e2ccc5ee47ff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ad79bd97c62f3ae7cf227d70fdafca') in 0.009385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 550.373589 seconds.
-  path: Assets/Characters/Bot/Materials
-  artifactKey: Guid(880049f60cff1a148bc0b05cfcdac3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials using Guid(880049f60cff1a148bc0b05cfcdac3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5cf4461b6281f38a8eeb854796259') in 0.006489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.865655 seconds.
-  path: Assets/Characters/Bot/Materials/Huggy.mat
-  artifactKey: Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials/Huggy.mat using Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a27dada4d8eda51efb3265d86b56bd0') in 0.026534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.238789 seconds.
-  path: Assets/Characters/Bot/Materials/HuggyGreen.mat
-  artifactKey: Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials/HuggyGreen.mat using Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9553c7c9df05df92020a5f58ba95cc') in 0.019730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 265.385082 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70162aa3faf1b6490323464ec6f8b7ea') in 0.074882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Characters/Bot/Models/Mouth-color.png
-  artifactKey: Guid(e89fd920e5ffb2947a14ee11aa06a22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mouth-color.png using Guid(e89fd920e5ffb2947a14ee11aa06a22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a532e79ffdcfad9ad5c6794fd8a1bcd') in 0.012013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Characters/Bot/Models/Body-normal.png
-  artifactKey: Guid(4e79fbb8f618c1d498f8f98ab23e60fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Body-normal.png using Guid(4e79fbb8f618c1d498f8f98ab23e60fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcad9e4da57f4597205ec3563544b3c') in 0.015502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Characters/Bot/Models/Teeth-and-eye-color.png
-  artifactKey: Guid(76f9ba7fca7fe074c95d759dfbadde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Teeth-and-eye-color.png using Guid(76f9ba7fca7fe074c95d759dfbadde3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f566cbad7d28583303d5595414e8804') in 0.012723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Characters/Bot/Models/Huggy body color.png
-  artifactKey: Guid(14976b793e7c09f498a00d82df345ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy body color.png using Guid(14976b793e7c09f498a00d82df345ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f85660fca5c272de6810264ba28008') in 0.025694 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/Bot/Models/Material.005.mat
+  artifactKey: Guid(6631898dcb9903a459c588d0f9e45a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Material.005.mat using Guid(6631898dcb9903a459c588d0f9e45a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031e5245e9b40696382817bfa042bbda') in 0.012826 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Characters/Bot/Models/Teeth-and-eye-normal.png
-  artifactKey: Guid(d93eb1e2220a68642a23643f6dc0d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Teeth-and-eye-normal.png using Guid(d93eb1e2220a68642a23643f6dc0d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e2001b8be5e31034b1f631cf53228') in 0.013292 seconds 
+  path: Assets/Characters/Bot/Models/Material.004.mat
+  artifactKey: Guid(f6c274006f5e7b741b75be77899b4523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Material.004.mat using Guid(f6c274006f5e7b741b75be77899b4523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67eb606f520fd7191419ce5a7368b15') in 0.009736 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.720425 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663d6a6e7e0a3872f3408921a204b868') in 0.062125 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Characters/Bot/Models/Kissy Missy.fbx
+  artifactKey: Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy Missy.fbx using Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8537d6abe93d838d7d608b73d81d90') in 0.060134 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Bot/Models/Material.001.mat
+  artifactKey: Guid(a49f27df78f17c64197e0e9ad54f3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Material.001.mat using Guid(a49f27df78f17c64197e0e9ad54f3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a5d07185cab41db58b1185a1a34e20') in 0.010734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Bot/Models/Mouth.001.mat
+  artifactKey: Guid(5e3a01f7b1427d34ab6bff63a26bd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Mouth.001.mat using Guid(5e3a01f7b1427d34ab6bff63a26bd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3512ea17a38cc5caa20d246d913bdb61') in 0.009461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600870 seconds.
+  path: Assets/Characters/Bot/Models/Kissy Missy.fbx
+  artifactKey: Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy Missy.fbx using Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da082357daf51486da6538e54d0c2a1f') in 0.040447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/Bot/Models/Kissy body color.png
+  artifactKey: Guid(d620b2c9a631c7c469ed375c29ad344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy body color.png using Guid(d620b2c9a631c7c469ed375c29ad344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa9e113330d46b207c425ae8c6cd4b8') in 0.035630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Characters/Bot/Models/Teeth-and-eye-color.png
+  artifactKey: Guid(71ed184924a4fe84fb2f5180361e5dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Teeth-and-eye-color.png using Guid(71ed184924a4fe84fb2f5180361e5dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71658f2b601aa0e9b418a67ed1b5d4d') in 0.019437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
   path: Assets/Characters/Bot/Models/Body-normal.png
-  artifactKey: Guid(4e79fbb8f618c1d498f8f98ab23e60fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Body-normal.png using Guid(4e79fbb8f618c1d498f8f98ab23e60fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34dc5117f0afbf0b5765783443183a9') in 0.014993 seconds 
+  artifactKey: Guid(46f01437785b0fb4e8e6872acf09ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Body-normal.png using Guid(46f01437785b0fb4e8e6872acf09ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfd4417deb8c89a6f292e6e25bb4975') in 0.011831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/Bot/Models/Mouth-color.png
+  artifactKey: Guid(e37dfffcd17d0dc4dbd7988adb7daf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Mouth-color.png using Guid(e37dfffcd17d0dc4dbd7988adb7daf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a86bd24c944f131b8c17058b34cddf') in 0.011084 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
+  path: Assets/Characters/Bot/Models/Ribbon.png
+  artifactKey: Guid(b6ff27f643e4df246859194a8e9f93e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Ribbon.png using Guid(b6ff27f643e4df246859194a8e9f93e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd280581998c8376a357fc1a3ad0d7a47') in 0.009974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
   path: Assets/Characters/Bot/Models/Teeth-and-eye-normal.png
-  artifactKey: Guid(d93eb1e2220a68642a23643f6dc0d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Teeth-and-eye-normal.png using Guid(d93eb1e2220a68642a23643f6dc0d191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936c09a446aaf9579a75bfe1caa0c342') in 0.012996 seconds 
+  artifactKey: Guid(3cf4a5e189f3b6348b57c847497bcd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Teeth-and-eye-normal.png using Guid(3cf4a5e189f3b6348b57c847497bcd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c0677633a1a495bfdd4031feed2815') in 0.010922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 145.795023 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9503ea6cbfe1ff3997a08c25eb3b3804') in 0.073131 seconds 
+  Time since last request: 31.609906 seconds.
+  path: Assets/Characters/Bot/Models/Body-normal 1.png
+  artifactKey: Guid(44376395a74c80746b8aa5bd2c6a7008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Body-normal 1.png using Guid(44376395a74c80746b8aa5bd2c6a7008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0805db8af5b22319b7ba52dd4c04b6c') in 0.014969 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Characters/Bot/Models/Material.003.mat
-  artifactKey: Guid(ce4678a1db8a6dc408f4a66a7d7f15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Material.003.mat using Guid(ce4678a1db8a6dc408f4a66a7d7f15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f04f4117f1c2af829a9777e2547ff8a') in 0.012295 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Bot/Models/Kissy body color 1.png
+  artifactKey: Guid(a24993bb345734e49aa8f8fc4d721fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy body color 1.png using Guid(a24993bb345734e49aa8f8fc4d721fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84b1c3bbede35c1e926d9cbb14b9254') in 0.024252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/Bot/Models/Mouth-color 1.png
+  artifactKey: Guid(4e5159b2ba20b1b419627bc1e197ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Mouth-color 1.png using Guid(4e5159b2ba20b1b419627bc1e197ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df3a10be796fa5c527f63bf1d12e19') in 0.013449 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Characters/Bot/Models/Body.mat
-  artifactKey: Guid(0f14390b5af377849bdb66326df0386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Body.mat using Guid(0f14390b5af377849bdb66326df0386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ad54eb343095000acbefed9468dab4') in 0.012347 seconds 
+  path: Assets/Characters/Bot/Models/Teeth-and-eye-color 1.png
+  artifactKey: Guid(b5bf3769ee9b80143bd39a0aeb78c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Teeth-and-eye-color 1.png using Guid(b5bf3769ee9b80143bd39a0aeb78c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb1f68245bef14fa6f52ed7813bde59') in 0.013243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Characters/Bot/Models/Mouth.002.mat
-  artifactKey: Guid(5c5af36b787de024aab6603f68865fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mouth.002.mat using Guid(5c5af36b787de024aab6603f68865fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950b0e31aeeb0692cbcb51c0e9ef3cab') in 0.026558 seconds 
+  Time since last request: 23.910624 seconds.
+  path: Assets/Characters/Bot/Models/Body-normal 1.png
+  artifactKey: Guid(c232aec227f0d8d489279774bf0c2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Body-normal 1.png using Guid(c232aec227f0d8d489279774bf0c2eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98758c633eaef6394a5b9fe3ef73c23') in 0.016307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Characters/Bot/Models/Material.007.mat
-  artifactKey: Guid(f53d05b6d2d8e06458ae400b69cc6fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Material.007.mat using Guid(f53d05b6d2d8e06458ae400b69cc6fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463db801511713cecea0d10527b260c') in 0.013853 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Bot/Models/Teeth-and-eye-normal 1.png
+  artifactKey: Guid(5c97b30db6e74e145945825e812253d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Teeth-and-eye-normal 1.png using Guid(5c97b30db6e74e145945825e812253d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e19c09662b44c04e514a87674a01eb') in 0.023348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.702464 seconds.
-  path: Assets/Characters/Bot/Materials/HuggyBlue.mat
-  artifactKey: Guid(0f14390b5af377849bdb66326df0386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials/HuggyBlue.mat using Guid(0f14390b5af377849bdb66326df0386c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14d95a4b4b0e2ffc3a61a3ccc2cb4d0') in 0.019661 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Characters/Bot/Models/Mouth-color 1.png
+  artifactKey: Guid(23e34d7ab4f52b2419900c6fce22127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Mouth-color 1.png using Guid(23e34d7ab4f52b2419900c6fce22127f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbdcd18ee879bbe7c63036038ab2f7c') in 0.013252 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.557048 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e70aea1d0729bb0fa52f88105dca70') in 0.017632 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Bot/Models/Teeth-and-eye-color 1.png
+  artifactKey: Guid(4bf19e0a752b20d4b8764ebf72cedc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Teeth-and-eye-color 1.png using Guid(4bf19e0a752b20d4b8764ebf72cedc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8ff9b091ab2ec64961d43a324ad6e6') in 0.021634 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3091.023082 seconds.
-  path: Assets/Characters/Bot/Animation/Aj@Sneaking Forward.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Aj@Sneaking Forward.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac3418e1cc928b036af49b4016e539') in 0.010210 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/Bot/Models/Kissy body color 1.png
+  artifactKey: Guid(72164a0629c50924a81d0870820ec4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy body color 1.png using Guid(72164a0629c50924a81d0870820ec4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df6b12fe0d9a214955b9b1a2c488630') in 0.011184 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.114037 seconds.
-  path: Assets/Characters/Bot/Animation/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7cf6dad21d856cab988620735e8075') in 0.009669 seconds 
+  Time since last request: 23.202521 seconds.
+  path: Assets/Characters/Bot/Texture/Body-normal - Copy.png
+  artifactKey: Guid(46f01437785b0fb4e8e6872acf09ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Texture/Body-normal - Copy.png using Guid(46f01437785b0fb4e8e6872acf09ab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f98b29e1e3a4b73157a20e5e019191a') in 0.012406 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.730748 seconds.
-  path: Assets/Characters/Bot/Prefabs/Enemy 1 Animation Variant.prefab
-  artifactKey: Guid(0093c587ba1ab9c408dedfb7173e0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Enemy 1 Animation Variant.prefab using Guid(0093c587ba1ab9c408dedfb7173e0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7e9c25f8ca6453b74f69fe9d02d360') in 0.007584 seconds 
+  Time since last request: 3.748162 seconds.
+  path: Assets/Characters/Bot/Texture/Mommy-normal 1.png
+  artifactKey: Guid(a67e1dd5ab01d1a418abe7044e0a13a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Texture/Mommy-normal 1.png using Guid(a67e1dd5ab01d1a418abe7044e0a13a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baa9e26b9dc0d05cc934729247df4e3') in 0.014519 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.620250 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy
-  artifactKey: Guid(bd66a27eda89c53468e2be07eb25090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy using Guid(bd66a27eda89c53468e2be07eb25090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622cc492e2c4888797628c5217ff3ca1') in 0.001715 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Characters/Bot/Texture/Teeth-and-eye-color - Copy.png
+  artifactKey: Guid(71ed184924a4fe84fb2f5180361e5dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Texture/Teeth-and-eye-color - Copy.png using Guid(71ed184924a4fe84fb2f5180361e5dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45177eb9e242d0ad28786d8198f3eef8') in 0.022621 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.097444 seconds.
-  path: Assets/Characters/Bot/Animation/FirstSetZombiesAnimation
-  artifactKey: Guid(de36611c2252c5640ac49eb8bc871480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/FirstSetZombiesAnimation using Guid(de36611c2252c5640ac49eb8bc871480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010fed717e20e605447ee709a8a21a76') in 0.010764 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/Bot/Texture/Mouth-color - Copy.png
+  artifactKey: Guid(e37dfffcd17d0dc4dbd7988adb7daf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Texture/Mouth-color - Copy.png using Guid(e37dfffcd17d0dc4dbd7988adb7daf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd82f7d955e49c0c7bf42dd5040c911b') in 0.025542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.464882 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/Huggy.controller
-  artifactKey: Guid(4ea2283ea6db7f54c82d2eb553897f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/Huggy.controller using Guid(4ea2283ea6db7f54c82d2eb553897f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1b4694e2ac5ae81cd6dfd41b7c1aa7') in 0.007085 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/Bot/Texture/Teeth-and-eye-normal - Copy.png
+  artifactKey: Guid(3cf4a5e189f3b6348b57c847497bcd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Texture/Teeth-and-eye-normal - Copy.png using Guid(3cf4a5e189f3b6348b57c847497bcd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e8a56921503c31137d50c52413ced4') in 0.016442 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.322245 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5385b27af8bbd24f0a4d7a4326db959b') in 0.006187 seconds 
+  Time since last request: 26.370112 seconds.
+  path: Assets/Characters/Bot/Prefabs/Mommy.prefab
+  artifactKey: Guid(b490d684731de1a45941d194452fc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/Mommy.prefab using Guid(b490d684731de1a45941d194452fc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61677d090c7393f34cda8944d0777546') in 0.026015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.852732 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0657d636930fccad8b38ba4d6beaf') in 0.005700 seconds 
+  Time since last request: 95.040039 seconds.
+  path: Assets/Characters/Bot/Models/Kissy Missy.fbx
+  artifactKey: Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Models/Kissy Missy.fbx using Guid(b6e60023453cf0140b1fae52cacfef02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c02a1748d1a27ddf949746d570a9b8') in 0.032180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.418190 seconds.
-  path: Assets/Menu/Backend/Animation/zombie eating.fbx
-  artifactKey: Guid(8388f8d86f0500945ac8fa124154c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Backend/Animation/zombie eating.fbx using Guid(8388f8d86f0500945ac8fa124154c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7cbf87c7228f102fd7c25659b83b10') in 0.022424 seconds 
+  Time since last request: 126.143805 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyGreen.prefab
+  artifactKey: Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyGreen.prefab using Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97ba66f3c8b9e124a06cb29ec400d1b') in 0.028928 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Menu/Backend/Animation/zombie eating stay End.fbx
-  artifactKey: Guid(5ede0379d16a79042be9fb336a2d3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Backend/Animation/zombie eating stay End.fbx using Guid(5ede0379d16a79042be9fb336a2d3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fc606b3f558aa6d594070979012d89') in 0.017818 seconds 
+  Time since last request: 42.986600 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyGreen.prefab
+  artifactKey: Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyGreen.prefab using Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8e330bac51d8eb655b6a9942e306c5') in 0.017234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.636411 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyGreen.prefab
+  artifactKey: Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyGreen.prefab using Guid(d12736074ebe3ac469cb3a75aa5eb552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfb7395915bfb32ddd61f14b1ea6495') in 0.022063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.712126 seconds.
+  path: Assets/Characters/Bot/Materials/HuggyOrange.mat
+  artifactKey: Guid(52289271fd0bcb347b1b5499a12e3669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Materials/HuggyOrange.mat using Guid(52289271fd0bcb347b1b5499a12e3669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5b5184df7db37576385f699a70b2d7') in 0.013795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.497668 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyOrange.prefab
+  artifactKey: Guid(c3f1f12715e389d46a1fb6f0f08fc346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyOrange.prefab using Guid(c3f1f12715e389d46a1fb6f0f08fc346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e233e0652a8a22e02f4ebd277d8f0fc') in 0.017688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.763193 seconds.
+  path: Assets/Characters/Bot/Materials/HuggyPurple.mat
+  artifactKey: Guid(d640c6425ac4b32458db64889c9a0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Materials/HuggyPurple.mat using Guid(d640c6425ac4b32458db64889c9a0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e47e89f39c7a03121750793e114b7d') in 0.021107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.997146 seconds.
+  path: Assets/Characters/Bot/Materials/HuggyRainbow.mat
+  artifactKey: Guid(2293bbf8ce631c542babeca1cbcf99ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Materials/HuggyRainbow.mat using Guid(2293bbf8ce631c542babeca1cbcf99ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0295ca5e4465fbeb9d9053fdb46f582') in 0.013479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.425876 seconds.
+  path: Assets/Characters/Bot/Materials/HuggyRed.mat
+  artifactKey: Guid(14a433a0b39a39049b579a36ab33607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Materials/HuggyRed.mat using Guid(14a433a0b39a39049b579a36ab33607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dcbbae1020cf4ac940361c9847653f') in 0.014059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.465560 seconds.
+  path: Assets/Characters/Bot/Materials/HuggyYellow.mat
+  artifactKey: Guid(582eb111a4ae6294c9d23b06c29a97a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Materials/HuggyYellow.mat using Guid(582eb111a4ae6294c9d23b06c29a97a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f13baf625f7024f9ac20ccf859025fd') in 0.013751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.484536 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyPurple.prefab
+  artifactKey: Guid(bccc18257571b65448942d7cf36475ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyPurple.prefab using Guid(bccc18257571b65448942d7cf36475ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b48dafb178b1ac6c9360548c08b2c9d') in 0.018977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.538737 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyRainbow.prefab
+  artifactKey: Guid(303c5be7cc1f5614792c1384513073d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyRainbow.prefab using Guid(303c5be7cc1f5614792c1384513073d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c2d38338f6f9e7eef74b42afc129df') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.852583 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyRed.prefab
+  artifactKey: Guid(ec6553380576d0f4ea19f49f9e115872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyRed.prefab using Guid(ec6553380576d0f4ea19f49f9e115872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de38a029b084dbf7d07da15777a03449') in 0.021768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.473308 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyYellow.prefab
+  artifactKey: Guid(19f92cceb5a169648a127a1e214c597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyYellow.prefab using Guid(19f92cceb5a169648a127a1e214c597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78809630bd2271e7f4684fb4c318be3') in 0.019268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.328989 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyOrange.prefab
+  artifactKey: Guid(c3f1f12715e389d46a1fb6f0f08fc346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyOrange.prefab using Guid(c3f1f12715e389d46a1fb6f0f08fc346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41de0d4c5f7b8df79c7d99f0047a0d51') in 0.019199 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Menu/Backend/Animation/zombie scream.fbx
-  artifactKey: Guid(8216cee23ab20314eb36d2083bb116ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Backend/Animation/zombie scream.fbx using Guid(8216cee23ab20314eb36d2083bb116ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86346e3d0071843458e13ff02097b237') in 0.017960 seconds 
+  path: Assets/Characters/Bot/Prefabs/HuggyYellow.prefab
+  artifactKey: Guid(19f92cceb5a169648a127a1e214c597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyYellow.prefab using Guid(19f92cceb5a169648a127a1e214c597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7638961e8f168bf9e47e927a0e6a78') in 0.016017 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Menu/Backend/Animation/zombie eating start.fbx
-  artifactKey: Guid(b7bc950d880885a49bd89324e125d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Backend/Animation/zombie eating start.fbx using Guid(b7bc950d880885a49bd89324e125d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1e922e43c59f9838509d576609f81c') in 0.017244 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyRainbow.prefab
+  artifactKey: Guid(303c5be7cc1f5614792c1384513073d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyRainbow.prefab using Guid(303c5be7cc1f5614792c1384513073d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae11804afcaa44f5eabd362ab7d816') in 0.016246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.353672 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_04.fbx
-  artifactKey: Guid(3c66ccb66c13d0b4b9d2d08cb719e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_handgun_04.fbx using Guid(3c66ccb66c13d0b4b9d2d08cb719e3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb800755fbb6d9f5f7c1ab01d3a83eb') in 0.118834 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyPurple.prefab
+  artifactKey: Guid(bccc18257571b65448942d7cf36475ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyPurple.prefab using Guid(bccc18257571b65448942d7cf36475ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d1f5bb914ee7b3c59a04e615c6ba0c') in 0.016577 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.535914 seconds.
-  path: Assets/Characters/Bot/Prefabs/Enemy.prefab
-  artifactKey: Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Enemy.prefab using Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186d6b00b49c2511d6da64343fc91138') in 0.009261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.321688 seconds.
-  path: Assets/Characters/Bot/Prefabs/Enemy.prefab
-  artifactKey: Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Enemy.prefab using Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1748828cde8bf10d8a2e53d78d9b7fbc') in 0.003708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.375460 seconds.
-  path: Assets/Characters/Bot/Prefabs/Enemy.prefab
-  artifactKey: Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Enemy.prefab using Guid(830a4df9e07c5124c91c437b7407489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77c6c579f82c2847387ccc1a46a2fa1') in 0.003463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.711145 seconds.
-  path: Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_01.fbx
-  artifactKey: Guid(ee465ab9a24fe4949b0322fd28a3c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Infima Games/Low Poly Shooter Pack/_Legacy/Animations/Weapons/(Legacy)arms_smg_01.fbx using Guid(ee465ab9a24fe4949b0322fd28a3c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbb61511be02508ec099b971e3e873b') in 0.128843 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/Bot/Prefabs/HuggyRed.prefab
+  artifactKey: Guid(ec6553380576d0f4ea19f49f9e115872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Bot/Prefabs/HuggyRed.prefab using Guid(ec6553380576d0f4ea19f49f9e115872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fd00b17cc6ae60fb58b5c78b296297') in 0.016827 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007491 seconds.
+Registered in 0.007311 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  1.205 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1156ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (916ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5303.
-Memory consumption went from 285.5 MB to 285.5 MB.
-Total: 3.370100 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.460900 ms MarkObjects: 2.525100 ms  DeleteObjects: 0.026700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007460 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1180ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (476ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.6 KB). Loaded Objects now: 5306.
-Memory consumption went from 285.6 MB to 285.5 MB.
-Total: 3.217600 ms (FindLiveObjects: 0.326100 ms CreateObjectMapping: 0.293500 ms MarkObjects: 2.489700 ms  DeleteObjects: 0.107300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007312 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1167ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (948ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (481ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5309.
-Memory consumption went from 285.6 MB to 285.5 MB.
-Total: 3.177800 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.297100 ms MarkObjects: 2.516700 ms  DeleteObjects: 0.024700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008601 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1266ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (497ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (129ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5312.
-Memory consumption went from 285.6 MB to 285.6 MB.
-Total: 3.050400 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.258400 ms MarkObjects: 2.424700 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007538 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1198ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (968ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (479ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5315.
-Memory consumption went from 285.4 MB to 285.4 MB.
-Total: 3.318500 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.295000 ms MarkObjects: 2.653800 ms  DeleteObjects: 0.025900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 443.608900 seconds.
-  path: Assets/Characters/Bot/Materials/HuggyGreen.mat
-  artifactKey: Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials/HuggyGreen.mat using Guid(14dfecb05845f72428720bbf74840058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a4cd61364875cd33cf75fee681a997') in 0.074115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.591423 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1e1d7ca878871ed12a16bb18d16e69') in 0.033849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.687098 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc52cd892ad5d589929baf6fd6212ac3') in 0.026506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.358942 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/Huggy.controller
-  artifactKey: Guid(4ea2283ea6db7f54c82d2eb553897f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/Huggy.controller using Guid(4ea2283ea6db7f54c82d2eb553897f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e99cad294eacac01b51c8a1e1a94e') in 0.005667 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007231 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1162ms)
+	ReloadAssembly (1206ms)
 		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (935ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (461ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5318.
-Memory consumption went from 285.6 MB to 285.6 MB.
-Total: 3.205100 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.265900 ms MarkObjects: 2.536600 ms  DeleteObjects: 0.044000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.636397 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc5d727a3027c17735f97c14137801') in 0.029395 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007300 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1122ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (123ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5321.
-Memory consumption went from 285.6 MB to 285.6 MB.
-Total: 4.382500 ms (FindLiveObjects: 0.368800 ms CreateObjectMapping: 0.368800 ms MarkObjects: 3.608100 ms  DeleteObjects: 0.036100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8.996071 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fb38e75a04e4077a702781b19ef548') in 0.031220 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007246 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1159ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (924ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (452ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5324.
-Memory consumption went from 285.6 MB to 285.6 MB.
-Total: 3.139800 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.330800 ms MarkObjects: 2.413600 ms  DeleteObjects: 0.024300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 72.069288 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4f4bfbf8a35fa0b3ef0aa1c0885ce1') in 0.087544 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007373 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (900ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (283ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5327.
-Memory consumption went from 285.6 MB to 285.6 MB.
-Total: 3.658200 ms (FindLiveObjects: 0.355000 ms CreateObjectMapping: 0.253500 ms MarkObjects: 3.021300 ms  DeleteObjects: 0.027700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.102730 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da26b631d265b3c23c2e5ab06eac53') in 0.093557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 154.009135 seconds.
-  path: Assets/Characters/Bot/Models/Huggy Wuggy.fbx
-  artifactKey: Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Huggy Wuggy.fbx using Guid(c17313ac866d71149bb8b62a169767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630e0cdccfb4acf7112d6cc12e8fba81') in 0.018025 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007597 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1109ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (420ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.6 KB). Loaded Objects now: 5330.
-Memory consumption went from 285.5 MB to 285.4 MB.
-Total: 3.133800 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.247400 ms MarkObjects: 2.544800 ms  DeleteObjects: 0.022200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.853084 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1efea7b09cf80e8f427e793666f6c1') in 0.072017 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007366 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1125ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (460ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (125ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5333.
-Memory consumption went from 285.5 MB to 285.4 MB.
-Total: 3.043500 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.247800 ms MarkObjects: 2.436900 ms  DeleteObjects: 0.026100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007581 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5336.
-Memory consumption went from 285.5 MB to 285.5 MB.
-Total: 3.019100 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.228500 ms MarkObjects: 2.419900 ms  DeleteObjects: 0.039000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007197 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (438ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5339.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.277500 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.258800 ms MarkObjects: 2.663100 ms  DeleteObjects: 0.030700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007312 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5342.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.114700 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.266700 ms MarkObjects: 2.463600 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 581.521098 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f678670f38bc9a078c742dbcb1288c') in 0.078661 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007220 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.151 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
-			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (467ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5345.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.175800 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.243500 ms MarkObjects: 2.541700 ms  DeleteObjects: 0.031600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007294 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1118ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5348.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.198300 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.274200 ms MarkObjects: 2.571500 ms  DeleteObjects: 0.024200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 457.579350 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e2815268547cad0d4c971f7fa1967') in 0.077660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.667062 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e321832746c179a7d83d6c71dee1b9f6') in 0.017487 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007815 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1120ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5351.
-Memory consumption went from 285.5 MB to 285.5 MB.
-Total: 3.405300 ms (FindLiveObjects: 0.367000 ms CreateObjectMapping: 0.303200 ms MarkObjects: 2.688300 ms  DeleteObjects: 0.045900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007366 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1113ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5354.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.102700 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.245800 ms MarkObjects: 2.497800 ms  DeleteObjects: 0.026900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 132.434130 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33054b14e5d4276b832cb42140089460') in 0.074764 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007232 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (903ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.6 KB). Loaded Objects now: 5357.
-Memory consumption went from 285.7 MB to 285.7 MB.
-Total: 3.395200 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.259900 ms MarkObjects: 2.733900 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 59.200289 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b154071002ec3f541c50533d2d3270') in 0.091179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 111.389927 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60be94a1f5b0728809cb2cadfbb19bcf') in 0.006695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.019255 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1240365a24ffa270303bc05715850bc2') in 0.005999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.749927 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e930bffb6ad77587bd1f368ef8797dc') in 0.005699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.016759 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f35a2db8b85cbb407a1f3b55b0a08ec') in 0.005476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.661534 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4c59de0cc744f3c59a840e9117b7ab') in 0.005404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.643097 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx
-  artifactKey: Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyWalk.fbx using Guid(cd7214e7db26a2445ac25303dac3d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b264dfcfa1c6abc421d529d6a568626f') in 0.005625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.886638 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e70df66d89c55b055748eb08320118') in 0.016797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.975591 seconds.
-  path: Assets/Characters/Bot/Scripts/Appearance.cs
-  artifactKey: Guid(447eb454db9a65242b8fe3d9f9868b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Scripts/Appearance.cs using Guid(447eb454db9a65242b8fe3d9f9868b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52f6f8fe4bc975d894e963f8e0aab7d') in 0.008995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.159276 seconds.
-  path: Assets/Characters/Bot/Scripts/BotMove.cs
-  artifactKey: Guid(2aa1e6b64a1cae640828d4f82865b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Scripts/BotMove.cs using Guid(2aa1e6b64a1cae640828d4f82865b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadfc9837d5212c363cde0360714471a') in 0.005634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.151362 seconds.
-  path: Assets/Characters/Bot/Scripts/TargetMoveBot.cs
-  artifactKey: Guid(3e04cd3e70bcaec4389f730353770704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Scripts/TargetMoveBot.cs using Guid(3e04cd3e70bcaec4389f730353770704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8043db4503818f350f61cf77eb219962') in 0.005909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.664502 seconds.
-  path: Assets/Characters/Bot/Scripts/MusicZombie.cs
-  artifactKey: Guid(d82060e3e60947d43a4f05111017102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Scripts/MusicZombie.cs using Guid(d82060e3e60947d43a4f05111017102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da8f53772426b70ba1452903d900064') in 0.006104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.556105 seconds.
-  path: Assets/Characters/Bot/Scripts/AIBotController.cs
-  artifactKey: Guid(151ed98215f225c44a847f00c196fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Scripts/AIBotController.cs using Guid(151ed98215f225c44a847f00c196fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54295247536ced6e6486d071f20a93b') in 0.005479 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007230 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1141ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (901ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5360.
-Memory consumption went from 285.8 MB to 285.7 MB.
-Total: 3.294900 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.251100 ms MarkObjects: 2.668800 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.166027 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/Huggy Punching.fbx
-  artifactKey: Guid(ad43c35ff2c8a2541932650d867c11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/Huggy Punching.fbx using Guid(ad43c35ff2c8a2541932650d867c11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ef5524f854f525136a8f31c4e3add9') in 0.032797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.906928 seconds.
-  path: Assets/Characters/Bot/Animation/Huggy/HuggyPunching.fbx
-  artifactKey: Guid(ad43c35ff2c8a2541932650d867c11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Huggy/HuggyPunching.fbx using Guid(ad43c35ff2c8a2541932650d867c11b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd6b6e709effea64e4e862deaf0c54f') in 0.009418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.901992 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3cd557bb50a8983cd0db5877da6d95') in 0.052246 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007246 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1112ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (892ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (452ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5363.
-Memory consumption went from 285.8 MB to 285.8 MB.
-Total: 3.259200 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.256000 ms MarkObjects: 2.621200 ms  DeleteObjects: 0.027600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 387.493765 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dedcd0096d05aca0b7ab8818954525') in 0.077606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.330757 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1947846271c7c908932637c30c336f4d') in 0.017047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.215685 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffab10045be61503a53733953fd1db4a') in 0.016467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.778347 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b44910eb175ce040a6ec2a8a857f79') in 0.018499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.897662 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c86e10dece3d9ff537ef6ad4dc7a4db') in 0.020239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.977532 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd915160cea512c2cf3507c83675ba52b') in 0.019004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.036030 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eb073c1ae202e54605fa12cc750242') in 0.018291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.413861 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ab573f2fabacbcc8402590b81e678') in 0.019314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.017894 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d2d6db709a9db1003e96058b93db27') in 0.015007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.282396 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a45f36cd656cc20229ad913ecb99442') in 0.022087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.133960 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b479c11baa71c08113517ae71a67f91e') in 0.020334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.125561 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87deab1cdaa243c8eb3c1b7ff1eb7f30') in 0.019563 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007320 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (461ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5366.
-Memory consumption went from 285.7 MB to 285.6 MB.
-Total: 3.325800 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.328600 ms MarkObjects: 2.602300 ms  DeleteObjects: 0.027300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 66.342838 seconds.
-  path: Assets/Characters/Bot/Animation/Mommy
-  artifactKey: Guid(f826e6cd46aa46e43892283538426138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Animation/Mommy using Guid(f826e6cd46aa46e43892283538426138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b7b6a89789eb5abe54c175e356f5a2') in 0.010012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.102445 seconds.
-  path: Assets/Characters/Bot/Models/Mommy.fbx
-  artifactKey: Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy.fbx using Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704fc0f5e296df73ae46af94f661ddfc') in 0.105306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Bot/Models/Mommy-color 2.png
-  artifactKey: Guid(ce024dd6bacf29946a707999c79096c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy-color 2.png using Guid(ce024dd6bacf29946a707999c79096c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d557b3aa468c47ab4570132935fa44') in 0.017870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Characters/Bot/Models/Mommy-normal 1.png
-  artifactKey: Guid(a67e1dd5ab01d1a418abe7044e0a13a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy-normal 1.png using Guid(a67e1dd5ab01d1a418abe7044e0a13a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca16252f10dbc2731c27483de9983b9') in 0.012810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.446562 seconds.
-  path: Assets/Characters/Bot/Models/Mommy.fbx
-  artifactKey: Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy.fbx using Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898b7adb9d114d0f850594145814a24b') in 0.017945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003426 seconds.
-  path: Assets/Characters/Bot/Models/Material.001.mat
-  artifactKey: Guid(0b62d19997e4594469f49fb646537ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Material.001.mat using Guid(0b62d19997e4594469f49fb646537ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe22cd3299b789ea642631236d90426') in 0.010982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.530482 seconds.
-  path: Assets/Characters/Bot/Models/Mommy.fbx
-  artifactKey: Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy.fbx using Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695322ad914e330d262c99ae42d71c23') in 0.049046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.771436 seconds.
-  path: Assets/Characters/Bot/Models/Mommy.fbx
-  artifactKey: Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Models/Mommy.fbx using Guid(d207307a977e9a947b5e99f4f6bd286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa364573ca84df0b35af909daf5aab') in 0.032573 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007298 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1149ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (926ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (479ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -2043,9 +489,9 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5369.
-Memory consumption went from 286.0 MB to 285.9 MB.
-Total: 3.254600 ms (FindLiveObjects: 0.335000 ms CreateObjectMapping: 0.277300 ms MarkObjects: 2.614600 ms  DeleteObjects: 0.027000 ms)
+Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5304.
+Memory consumption went from 285.5 MB to 285.5 MB.
+Total: 3.391200 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.326000 ms MarkObjects: 2.695300 ms  DeleteObjects: 0.032800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -2058,246 +504,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 280.843275 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_08.prefab
+  artifactKey: Guid(ec5fdd40e62797947a90a79df17d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_08.prefab using Guid(ec5fdd40e62797947a90a79df17d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e694d95eee4bd61286a7ca01d335f58') in 0.082154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.766035 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_06.prefab
+  artifactKey: Guid(bdf11905568039047a943adbe62f5e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_06.prefab using Guid(bdf11905568039047a943adbe62f5e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c55e9265ebb72ae50f4f821f7800097') in 0.015468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_08.prefab
+  artifactKey: Guid(ec5fdd40e62797947a90a79df17d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_08.prefab using Guid(ec5fdd40e62797947a90a79df17d15f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878161b6314fcd32affe921e66fd5098') in 0.021988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.557678 seconds.
+  path: Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_07.prefab
+  artifactKey: Guid(95e9b96c3ea7be948b7b8c162831d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Infima Games/Low Poly Shooter Pack/Prefabs/Weapons/Attachments/Specific/P_LPSP_WEP_ATT_Scope_07.prefab using Guid(95e9b96c3ea7be948b7b8c162831d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a5aa736cc143bd3f93d13d410e51c2') in 0.019481 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008391 seconds.
+Registered in 0.007313 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.117 seconds
+- Completed reload, in  1.194 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1118ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (901ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (973ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.8 KB). Loaded Objects now: 5372.
-Memory consumption went from 286.0 MB to 285.9 MB.
-Total: 3.254100 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.256700 ms MarkObjects: 2.617000 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1024.038153 seconds.
-  path: Assets/Characters/Bot/Materials/Material.001.mat
-  artifactKey: Guid(0b62d19997e4594469f49fb646537ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Materials/Material.001.mat using Guid(0b62d19997e4594469f49fb646537ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aea855f8d3bbac92705cfb46e73aa3') in 0.068564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 568.040237 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e91d60df08930e740390814394d864c') in 0.029150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.744141 seconds.
-  path: Assets/Characters/Bot/Prefabs/Huggy.prefab
-  artifactKey: Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Huggy.prefab using Guid(ac40ef021dbcaaa46bac87834042b902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fa66848c06e6a2493aae0d5bc06967') in 0.016600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.683173 seconds.
-  path: Assets/Characters/Bot/Prefabs/Mommy.prefab
-  artifactKey: Guid(b490d684731de1a45941d194452fc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Bot/Prefabs/Mommy.prefab using Guid(b490d684731de1a45941d194452fc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6267055e153e3a0906713e0b827c4db4') in 0.015884 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007346 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1132ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5375.
-Memory consumption went from 286.0 MB to 286.0 MB.
-Total: 3.358500 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.340600 ms MarkObjects: 2.605000 ms  DeleteObjects: 0.026700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007215 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (459ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.6 KB). Loaded Objects now: 5378.
-Memory consumption went from 286.0 MB to 286.0 MB.
-Total: 3.246000 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.283100 ms MarkObjects: 2.601300 ms  DeleteObjects: 0.028400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007403 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (121ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (25.7 KB). Loaded Objects now: 5381.
-Memory consumption went from 285.8 MB to 285.8 MB.
-Total: 3.175700 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.270700 ms MarkObjects: 2.522200 ms  DeleteObjects: 0.031500 ms)
+Unloading 31 unused Assets / (24.7 KB). Loaded Objects now: 5307.
+Memory consumption went from 285.6 MB to 285.6 MB.
+Total: 3.287200 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.273900 ms MarkObjects: 2.638400 ms  DeleteObjects: 0.027700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

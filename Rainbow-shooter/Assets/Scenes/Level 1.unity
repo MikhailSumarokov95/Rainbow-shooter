@@ -20859,6 +20859,18 @@ MonoBehaviour:
   enemiesSpawn:
   - Enemy: {fileID: 6707329687561308501, guid: ac40ef021dbcaaa46bac87834042b902, type: 3}
     SpawnCount: 1
+  - Enemy: {fileID: 4013366071476139110, guid: d12736074ebe3ac469cb3a75aa5eb552, type: 3}
+    SpawnCount: 1
+  - Enemy: {fileID: 404576713500330274, guid: c3f1f12715e389d46a1fb6f0f08fc346, type: 3}
+    SpawnCount: 1
+  - Enemy: {fileID: 3158925802901443023, guid: bccc18257571b65448942d7cf36475ef, type: 3}
+    SpawnCount: 1
+  - Enemy: {fileID: 7229536065702544321, guid: 303c5be7cc1f5614792c1384513073d4, type: 3}
+    SpawnCount: 1
+  - Enemy: {fileID: 1929598093350657507, guid: ec6553380576d0f4ea19f49f9e115872, type: 3}
+    SpawnCount: 1
+  - Enemy: {fileID: 9132701751041580414, guid: 19f92cceb5a169648a127a1e214c597c, type: 3}
+    SpawnCount: 1
   - Enemy: {fileID: 6661937146283005854, guid: b490d684731de1a45941d194452fc966, type: 3}
     SpawnCount: 1
   boss: {fileID: 0}
