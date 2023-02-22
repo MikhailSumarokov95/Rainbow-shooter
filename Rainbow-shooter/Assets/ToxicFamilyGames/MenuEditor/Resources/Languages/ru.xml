@@ -21,7 +21,7 @@
   <text id="Restart">Рестарт</text>
   <text id="ContinuePerAds">Продолжить за рекламу</text>
   <text id="Continue">Продолжить</text>
-  <text id="DoubleMoneyPerAds">Удвоить вознаграждения за рекламу</text>
+  <text id="DoubleMoneyPerAds">Удвоить вознаграждение за рекламу</text>
   <text id="NextLevel">Следующий уровень</text>
   <text id="Win">Победа</text>
   <text id="IsSelected">Выбрано</text>
@@ -41,4 +41,5 @@
   <text id="free">Бесплатно</text>
   <text id="notNow">Не сейчас</text>
   <text id="Music">Громкость музыки</text>
+  <text id="youGot">ВЫ ПОПАЛИСЬ</text>
 </texts>

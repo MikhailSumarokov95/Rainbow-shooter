@@ -15,7 +15,7 @@ C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51155
+53265
 Successfully changed project path to: C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Mikhail/Desktop/Unity/Rainbow-shooter/Rainbow-shooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12620] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 4278632018 [EditorId] 4278632018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15992] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2290852726 [EditorId] 2290852726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12620] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 4278632018 [EditorId] 4278632018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15992] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2290852726 [EditorId] 2290852726 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QCT10TA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 201.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007331 seconds.
+Registered in 0.006619 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 206.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 177.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.665 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (665ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (586ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (389ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (206ms)
+				RefreshPlugins (178ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010078 seconds.
+Registered in 0.007515 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mikhail\Desktop\Unity\Rainbow-shooter\Rainbow-shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 199.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.529 seconds
+- Completed reload, in  1.359 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1529ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1295ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (758ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (678ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (200ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (332ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4773 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (30.2 KB). Loaded Objects now: 5253.
 Memory consumption went from 267.1 MB to 267.0 MB.
-Total: 3.387800 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.294100 ms MarkObjects: 2.674400 ms  DeleteObjects: 0.035700 ms)
+Total: 3.590100 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.276400 ms MarkObjects: 2.913400 ms  DeleteObjects: 0.025200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,163 +166,277 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 490544.019858 seconds.
-  path: Assets/Weapon/Bullet/Prefabs/Axe.prefab
-  artifactKey: Guid(fecc985b8bcb7a244b6bf58d081c2aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Bullet/Prefabs/Axe.prefab using Guid(fecc985b8bcb7a244b6bf58d081c2aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb97ac0d9b9b34c3343bb66c617ee0a3') in 0.046927 seconds 
+  Time since last request: 525460.224700 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de8dcd5759a476b156322784c5f410b') in 0.012119 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Weapon/Sprites/T_HUD_SMG_05_D.png
-  artifactKey: Guid(ecaba66d9dbe57542b2b6edbda3f9349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites/T_HUD_SMG_05_D.png using Guid(ecaba66d9dbe57542b2b6edbda3f9349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fddd3e44c671c3d0fd501be65a5dc17') in 0.085492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Weapon/Bullet
-  artifactKey: Guid(5ef27860f57d02a42b2dcd0a1d0e0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Bullet using Guid(5ef27860f57d02a42b2dcd0a1d0e0821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a505a70168b3e25e4855c85cb6bf476') in 0.005736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Weapon/Bullet/Prefabs/Bullet.prefab
-  artifactKey: Guid(a4d39ae8062b98a458ddb17702d63ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Bullet/Prefabs/Bullet.prefab using Guid(a4d39ae8062b98a458ddb17702d63ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096bf19029ae6839f940597caa0c4531') in 0.032897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Weapon/Sprites/T_HUD_SMG_01_D.png
-  artifactKey: Guid(315bfd26cb790014996e20386147fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites/T_HUD_SMG_01_D.png using Guid(315bfd26cb790014996e20386147fc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8212395d65cc2c9aceca15778a35c17') in 0.023311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapon/Bullet/Prefabs
-  artifactKey: Guid(982ec5c869d330744be73457f9dbaeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Bullet/Prefabs using Guid(982ec5c869d330744be73457f9dbaeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798da28aa25ad64e92f5c2e7c2e006c5') in 0.005185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Weapon/Sprites/T_HUD_SMG_02_D.png
-  artifactKey: Guid(ba17a01321ac6e7468285ac4b6200d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites/T_HUD_SMG_02_D.png using Guid(ba17a01321ac6e7468285ac4b6200d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819ab4e4ffd9820a18da7f57c09b435b') in 0.026536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapon/Bullet/Scripts
-  artifactKey: Guid(f603cc463f5e6ed4e891c0edaec9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Bullet/Scripts using Guid(f603cc463f5e6ed4e891c0edaec9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b52b1d345e68adbb4fa488d0feccc59') in 0.005091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Weapon/Sprites
-  artifactKey: Guid(63c688baf32e0d642856f6ad8643c5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites using Guid(63c688baf32e0d642856f6ad8643c5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0078fe738c1714047a948f551be415fe') in 0.005346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Weapon/Sprites/T_HUD_SMG_04_D.png
-  artifactKey: Guid(854dea3e4d5165d4c9fced229ea4dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites/T_HUD_SMG_04_D.png using Guid(854dea3e4d5165d4c9fced229ea4dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795caa31dd150f612179172cbb275886') in 0.021843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapon/Sprites/T_HUD_SMG_03_D.png
-  artifactKey: Guid(9450546de42e58c419807e9c70f9a42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Sprites/T_HUD_SMG_03_D.png using Guid(9450546de42e58c419807e9c70f9a42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eeb074088c84acca00c3644c226148') in 0.020532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.380273 seconds.
-  path: Assets/Weapon/Scripts
-  artifactKey: Guid(b58e206a66299bb43b8c2ac90033d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon/Scripts using Guid(b58e206a66299bb43b8c2ac90033d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc9509803e6092f10fbe10922773255') in 0.001761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.700825 seconds.
+  Time since last request: 67.102538 seconds.
   path: Assets/UI/BattlePass.prefab
   artifactKey: Guid(030279b3e7363ba42bfe936ce12bc17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/BattlePass.prefab using Guid(030279b3e7363ba42bfe936ce12bc17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abd21ff7a8c77cec2fae0f9fe40587e') in 0.061484 seconds 
+Start importing Assets/UI/BattlePass.prefab using Guid(030279b3e7363ba42bfe936ce12bc17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2056e3cff8f8deea8394f7760d186ed') in 0.083136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI/BattlePass_Button.prefab
-  artifactKey: Guid(33900a84e71521646b27712fcdb49d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/BattlePass_Button.prefab using Guid(33900a84e71521646b27712fcdb49d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434ac87fe6a010fbfc971296f04ab4ac') in 0.014934 seconds 
+  Time since last request: 64.528977 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(d19d3d7bf3948c64492ffcf3c39655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ef589a90887ae618e58a34bb98619c') in 0.006560 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.193411 seconds.
-  path: Assets/UI/New Folder
-  artifactKey: Guid(25510908bab32724f9bba24964f59dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/New Folder using Guid(25510908bab32724f9bba24964f59dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51afe0fe811ddbb2d2e884b6705eaf7f') in 0.010437 seconds 
+  Time since last request: 89.635241 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad444b26ac77fb9b1ec59b0cd547aae0') in 0.002471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.421758 seconds.
-  path: Assets/Menu/BattlePass/Sprities
-  artifactKey: Guid(019db7ceac086bf43a4f23bb199e0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities using Guid(019db7ceac086bf43a4f23bb199e0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb702c6ac3235f0c8b1f5eddb57c892') in 0.012931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.076540 seconds.
-  path: Assets/Menu/BattlePass/Sprities/AR-02.png
-  artifactKey: Guid(46ee185d88544254db408cafe6592e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/AR-02.png using Guid(46ee185d88544254db408cafe6592e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a840ba736931a7b0880e284b71d225c') in 0.019428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Menu/BattlePass/Sprities/SMG-04.png
-  artifactKey: Guid(68bcfa09f41e33444a7f4c810f572b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/SMG-04.png using Guid(68bcfa09f41e33444a7f4c810f572b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c23d44ce8f53384c7a3a2fefaea806') in 0.025945 seconds 
+  Time since last request: 157.809852 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Mail2.png
+  artifactKey: Guid(f71516143beb90543aa6120e4fd9dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Mail2.png using Guid(f71516143beb90543aa6120e4fd9dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057e00d871b621003483189a511d1ee') in 0.089490 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Menu/BattlePass/Sprities/SNIPER01.png
-  artifactKey: Guid(b76d135435e93a04c87d6388825cdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/SNIPER01.png using Guid(b76d135435e93a04c87d6388825cdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c767bb5a6ab235a414612cd262b7d57d') in 0.021098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Menu/BattlePass/Sprities/RL_01.png
-  artifactKey: Guid(dddd8515982758b4babf47301a18f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/RL_01.png using Guid(dddd8515982758b4babf47301a18f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782eb5aa1b4fa3795a1c8ac25e1dbbce') in 0.021553 seconds 
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Next.png
+  artifactKey: Guid(f42816d375b9e7a4d81c52f29820c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Next.png using Guid(f42816d375b9e7a4d81c52f29820c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764fadd20659e071233993036357a082') in 0.047665 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Menu/BattlePass/Sprities/SMG-05.png
-  artifactKey: Guid(553112281fa473f4b90fe65e4c2455ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/SMG-05.png using Guid(553112281fa473f4b90fe65e4c2455ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9cf865f9bbe35543c9f396d7ad2f7') in 0.024098 seconds 
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-3.png
+  artifactKey: Guid(dff43fec648d043419515b525e9b5c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-3.png using Guid(dff43fec648d043419515b525e9b5c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc8f65a3d919a29316d6219a26a56d') in 0.033935 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Menu/BattlePass/Sprities/GL-01.png
-  artifactKey: Guid(0bb2c727d388a084abff2616f8897a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/GL-01.png using Guid(0bb2c727d388a084abff2616f8897a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5664ca3eb7b91a11af044683eeb174da') in 0.027433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Menu/BattlePass/Sprities/HandGun 02.png
-  artifactKey: Guid(1545bdc976ee8fb41a1060b86fda0f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/HandGun 02.png using Guid(1545bdc976ee8fb41a1060b86fda0f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885a03363fc005af5e09d2123dc687c6') in 0.020726 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-4.png
+  artifactKey: Guid(492cd340125e1734ebf1690e16ed6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-4.png using Guid(492cd340125e1734ebf1690e16ed6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051cb8ab076129a64bbd56c04b6eb7cc') in 0.029436 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Menu/BattlePass/Sprities/AR-03.png
-  artifactKey: Guid(35c41e51cf1203745928662fb1c6883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/AR-03.png using Guid(35c41e51cf1203745928662fb1c6883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b7ba8f0c1eb956244834ecf86b5658') in 0.021153 seconds 
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Next-3.png
+  artifactKey: Guid(7e825ef86ef371d4aa2ec1a01966678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Next-3.png using Guid(7e825ef86ef371d4aa2ec1a01966678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ef26823d71f6b32fb0f0a922bb2195') in 0.026128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-2.png
+  artifactKey: Guid(47deeea270a5ab44ea1a2c80d8865cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-2.png using Guid(47deeea270a5ab44ea1a2c80d8865cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403faee409e4f970ab5583f09f3fc332') in 0.026032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-on.png
+  artifactKey: Guid(ef5ac3f0cdb53d44db384005b9da08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-on.png using Guid(ef5ac3f0cdb53d44db384005b9da08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cce27af2fff4baef5a1d81475ecd45') in 0.036197 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Menu/BattlePass/Sprities/Sniper03.png
-  artifactKey: Guid(54010cf147a16f04883c666b30275411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/Sniper03.png using Guid(54010cf147a16f04883c666b30275411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e47767db466ed970c6f4d2520232732') in 0.021088 seconds 
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-2.png
+  artifactKey: Guid(40ed11b7bc707054992c02f485068eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-2.png using Guid(40ed11b7bc707054992c02f485068eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fd82cf3db1984e2440e1c031eab7fe') in 0.035365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-off.png
+  artifactKey: Guid(3090caceeaf5cae4a9f4fc3e5cacc4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Music-off.png using Guid(3090caceeaf5cae4a9f4fc3e5cacc4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8e2a00592429b3cbb37e2f017649c0') in 0.019395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Musicoff2.png
+  artifactKey: Guid(24f80a09fa913d64bba8631da22fb0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Musicoff2.png using Guid(24f80a09fa913d64bba8631da22fb0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4b72dc1b181c765b645a67df826a14') in 0.018924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/next-2.png
+  artifactKey: Guid(86a690dad07a802489130892adb48497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/next-2.png using Guid(86a690dad07a802489130892adb48497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a197f0dfdcdf57b3b537befb4e872ef2') in 0.020502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-1.png
+  artifactKey: Guid(2ebbdbe7b96396e409d7db9a81e45d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Menu-1.png using Guid(2ebbdbe7b96396e409d7db9a81e45d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7815fc64d78b1a90509ee616a480a900') in 0.020671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.806136 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/No-Ads.png
+  artifactKey: Guid(c2c4a8e1a523ac341b819a5423a4a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/No-Ads.png using Guid(c2c4a8e1a523ac341b819a5423a4a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502e5ff1b4f03246b3ee053f3d51319a') in 0.027186 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Menu/BattlePass/Sprities/SMG-02.png
-  artifactKey: Guid(79096ec1824663441ab741107ecf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Sprities/SMG-02.png using Guid(79096ec1824663441ab741107ecf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b0c898228dad7f3e76fafa66912834') in 0.021077 seconds 
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Pause.png
+  artifactKey: Guid(2e941cd9caee8734ea279426f2db9314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Pause.png using Guid(2e941cd9caee8734ea279426f2db9314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b575dfa2a99844fda3ff7220299e54f') in 0.031910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 246.341148 seconds.
-  path: Assets/Menu/BattlePass/Scripts
-  artifactKey: Guid(625f4530089d171418525e8920f9122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/BattlePass/Scripts using Guid(625f4530089d171418525e8920f9122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e50886f35e682a1fd9ca0f082605255') in 0.005093 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Notification.png
+  artifactKey: Guid(bd642e4b7381107468e33b96a3ee6363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Notification.png using Guid(bd642e4b7381107468e33b96a3ee6363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1edff3b1b790ad8356ca3eb1c07c6f4') in 0.043272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rate5.png
+  artifactKey: Guid(065876a8607be694683262b62bf6fd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rate5.png using Guid(065876a8607be694683262b62bf6fd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dafff71092edfb17c989ca9bc34aee2') in 0.037826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Play.png
+  artifactKey: Guid(8a35474eee242ea40bdec1c6979192a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Play.png using Guid(8a35474eee242ea40bdec1c6979192a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a7aebcd546986958d60c89bbb61537') in 0.039917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Question.png
+  artifactKey: Guid(2909f4af0fd8b0c42ac2603c13d8db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Question.png using Guid(2909f4af0fd8b0c42ac2603c13d8db04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df063d00d63440292eb48f309b8dfe27') in 0.043825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Profile.png
+  artifactKey: Guid(53bf8f1831e2b9c40905458c69ff8207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Profile.png using Guid(53bf8f1831e2b9c40905458c69ff8207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a169f732f9162fbc260255ca4f5f8cb8') in 0.040459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/People.png
+  artifactKey: Guid(8f6e1b82ad0cdf441a0f6a18bb9bade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/People.png using Guid(8f6e1b82ad0cdf441a0f6a18bb9bade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd3820836dcc0682e1576113cd2caa4') in 0.020618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Replay.png
+  artifactKey: Guid(29cd71c8bc588eb4981f62552ff3f8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Replay.png using Guid(29cd71c8bc588eb4981f62552ff3f8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ae06de2e979e0bf8b304165609979e') in 0.019745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rate.png
+  artifactKey: Guid(51813d761108bfe4b9af9407f1886f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rate.png using Guid(51813d761108bfe4b9af9407f1886f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722fbe899070847beb6d93e9e8fe6252') in 0.019167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Notificationoff.png
+  artifactKey: Guid(a489ee087f1ceeb429cd8d3fe9570d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Notificationoff.png using Guid(a489ee087f1ceeb429cd8d3fe9570d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f0f89e37e4d6d0d7815c12a5fdfd94') in 0.019825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Removepeople.png
+  artifactKey: Guid(c91a5b01901dc0243907f98d796437fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Removepeople.png using Guid(c91a5b01901dc0243907f98d796437fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaab1784d1c31cf523c05e89276bd00') in 0.019730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.148415 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Retry.png
+  artifactKey: Guid(83d238168d3e4df4381aef919ba359ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Retry.png using Guid(83d238168d3e4df4381aef919ba359ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b30741d2df902bc9a80b454bb8d9de9') in 0.023162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Settings.png
+  artifactKey: Guid(6b6824c0c7b4acb4abc28352afb83141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Settings.png using Guid(6b6824c0c7b4acb4abc28352afb83141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12c7869bc4b2fc750878c2c1f62e83') in 0.020732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rewards.png
+  artifactKey: Guid(648879dbb73e9d54aa25dffa27270ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Rewards.png using Guid(648879dbb73e9d54aa25dffa27270ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f755365013111e62ef7092778786b58b') in 0.018853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Vibrate.png
+  artifactKey: Guid(867bbba10fa008b4cac4e08bc5945830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Vibrate.png using Guid(867bbba10fa008b4cac4e08bc5945830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf254266e7cb6e9a074779c3e9da6947') in 0.019310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Unlock.png
+  artifactKey: Guid(b56f5401bf60c7c4293951529f3991d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Unlock.png using Guid(b56f5401bf60c7c4293951529f3991d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08c4657d9e04b73a79d6e43f0f15e9a') in 0.018414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Subract.png
+  artifactKey: Guid(6410846862378bf4b9e1601146ae5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Subract.png using Guid(6410846862378bf4b9e1601146ae5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd65cfb3aa58357be8dd4339fb98781') in 0.019335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/soundon.png
+  artifactKey: Guid(9c4e86b090bf8ad458c54f8bbd94cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/soundon.png using Guid(9c4e86b090bf8ad458c54f8bbd94cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510912ecbc897a899aa7a278b2ba1d5f') in 0.019629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Right.png
+  artifactKey: Guid(d136def33ea7d47438735cfd8cebb3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Right.png using Guid(d136def33ea7d47438735cfd8cebb3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1440d4d2093295d4c126f1f441b469') in 0.018752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Share.png
+  artifactKey: Guid(d9e7513fa06ef3d4889b76b392f610e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Share.png using Guid(d9e7513fa06ef3d4889b76b392f610e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76993f96fdc19a59341b38d6e40135d2') in 0.019881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/sound-off.png
+  artifactKey: Guid(7ff27dab74369b74d86552c41e65f326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/sound-off.png using Guid(7ff27dab74369b74d86552c41e65f326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36844f344fe0ef024855b1d6d3af66a7') in 0.019131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Settings-2.png
+  artifactKey: Guid(f9fedb2075dc4b549b616b9d73522375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Settings-2.png using Guid(f9fedb2075dc4b549b616b9d73522375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837a5c2d282e3d0e94333876c8672643') in 0.020064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Video.png
+  artifactKey: Guid(c6023270ab68f2444894f0a1fd9f421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Video.png using Guid(c6023270ab68f2444894f0a1fd9f421b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa8c126a8649ece8985948224adce6e') in 0.020938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Up.png
+  artifactKey: Guid(b4dfb4b1716fae5459b52f286237073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Up.png using Guid(b4dfb4b1716fae5459b52f286237073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd9f1be60587df5c4060aff2f44f09e') in 0.019465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Wifi.png
+  artifactKey: Guid(dea9659e08466f840a49c2f4ec29488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Wifi.png using Guid(dea9659e08466f840a49c2f4ec29488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d5c798d625f7663d8463443bccc960') in 0.020475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Shuffle.png
+  artifactKey: Guid(aca02872169a93646bb37986d5e12318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Shuffle.png using Guid(aca02872169a93646bb37986d5e12318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ba43ae96642c84eecdb86b14a7cb21') in 0.020449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141268 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Wifierror.png
+  artifactKey: Guid(bc2e187963aee07489cd0397916b2caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Wifierror.png using Guid(bc2e187963aee07489cd0397916b2caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a50e912b74526251f2c97e587d0c6') in 0.025142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Zoom-out.png
+  artifactKey: Guid(2f9dd82459c7a36418e43500b54e225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Saurabh Studio/Legendary Game UI Pack 13/White Icons/Zoom-out.png using Guid(2f9dd82459c7a36418e43500b54e225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c12d57ee715d49688f4adddf2149ad9') in 0.018728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 267.211740 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095745eff21f2c56dc15087f9d95d89c') in 0.003945 seconds 

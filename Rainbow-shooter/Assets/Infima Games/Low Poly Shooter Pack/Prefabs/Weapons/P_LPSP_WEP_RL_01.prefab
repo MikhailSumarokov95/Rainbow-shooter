@@ -189,7 +189,7 @@ MonoBehaviour:
   socketEjection: {fileID: 0}
   canReloadAimed: 0
   prefabCasing: {fileID: 0}
-  prefabProjectile: {fileID: 1086664671600574, guid: 5953171a59c27394e9ad5cbb564affa8,
+  prefabProjectile: {fileID: 1670969100947644, guid: 6eff2e3f87451484da970b33bbf1411f,
     type: 3}
   controller: {fileID: 22100000, guid: 1e7a1bd7304ade54f9fbbec8df086aff, type: 2}
   spriteBody: {fileID: 21300000, guid: a64d5ac6f08b42c40ab639b957890bce, type: 3}
