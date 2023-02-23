@@ -940,7 +940,7 @@ Transform:
   m_GameObject: {fileID: 7449378923683851168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 321.2, y: 0, z: -180.92}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4657834745025673294}
@@ -959,7 +959,7 @@ Animator:
   m_GameObject: {fileID: 7449378923683851168}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: d207307a977e9a947b5e99f4f6bd286e, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4ea2283ea6db7f54c82d2eb553897f73, type: 2}
+  m_Controller: {fileID: 9100000, guid: dbe79a9b9a7b3b5489f013faef04e70a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   currentHealth: 0
   currentHealthText: {fileID: 0}
   takeDamageSoundPref: {fileID: 0}
-  maxHealth: 100
+  maxHealth: 300
 --- !u!114 &5204862226775334215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,7 +1075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a743e7b4ffd4f438a0ea778dd3efa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceAttack: 2
+  _distanceAttack: 7
   damage: 20
 --- !u!114 &397743391958047453
 MonoBehaviour:

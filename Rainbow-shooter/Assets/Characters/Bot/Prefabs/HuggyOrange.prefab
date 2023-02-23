@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distanceAttack: 2
-  damage: 20
+  damage: 5
 --- !u!114 &6659624731220870241
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -169,7 +169,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BossZombie
+  m_Name: Mommy
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Run
@@ -274,7 +274,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run
-  m_Speed: 0.5
+  m_Speed: 0.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -166112610197130431}
@@ -288,7 +288,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: fed7b6a0f05abef47998d53185cc8da2,
+  m_Motion: {fileID: -203655887218126122, guid: cd7214e7db26a2445ac25303dac3d841,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
