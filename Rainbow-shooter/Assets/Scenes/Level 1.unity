@@ -2590,7 +2590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &558254712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5788,7 +5788,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C: 19\u042F\u041D"
+  m_text: "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C: 29\u042F\u041D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 872d4ef16428fcf4c93352f8aa5cb271, type: 2}
   m_sharedMaterial: {fileID: 5913812290515290826, guid: 872d4ef16428fcf4c93352f8aa5cb271,
@@ -5934,7 +5934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0779fdcfc4ade214a84512b568669f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Price19Yan
+  id: Price29Yan
 --- !u!1 &1836657954
 GameObject:
   m_ObjectHideFlags: 0
