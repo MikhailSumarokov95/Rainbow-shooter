@@ -22,7 +22,7 @@ namespace InfimaGames.LowPolyShooterPack.Legacy
     	private void Start () {
     		//Start the coroutines
     		StartCoroutine (DestroyTimer ());
-    		StartCoroutine (LightFlash ());
+            if (lightFlash != null) StartCoroutine (LightFlash ());
     
     		//Get a random impact sound from the array
     		audioSource.clip = explosionSounds
@@ -36,8 +36,8 @@ namespace InfimaGames.LowPolyShooterPack.Legacy
     		lightFlash.GetComponent<Light>().enabled = true;
     		//Wait for set amount of time
     		yield return new WaitForSeconds (lightDuration);
-    		//Hide the light
-    		lightFlash.GetComponent<Light>().enabled = false;
+            //Hide the light
+            lightFlash.GetComponent<Light>().enabled = false;
     	}
     
     	private IEnumerator DestroyTimer () {
