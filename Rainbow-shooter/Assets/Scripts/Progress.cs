@@ -122,7 +122,6 @@ public static class Progress
     [Serializable]
     public class WeaponAttachmentSelected
     {
-        //public bool IsSelectedWeapon;
         public int ScopeIndex;
         public int MuzzleIndex;
         public int LaserIndex;
