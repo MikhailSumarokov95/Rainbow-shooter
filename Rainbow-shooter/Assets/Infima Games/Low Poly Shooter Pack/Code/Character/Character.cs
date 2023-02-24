@@ -1366,11 +1366,46 @@ namespace InfimaGames.LowPolyShooterPack
 				PlayGrenadeThrow();
 
 		}
-		
-		/// <summary>
-		/// Melee.
-		/// </summary>
-		public void OnTryMelee(InputAction.CallbackContext context)
+
+        public void OnTryThrowSuperGrenateMobile()
+        {
+            TryThrowSuperGrenate();
+        }
+
+        /// <summary>
+        /// Throw SuperGrenade. 
+        /// </summary>
+        public void OnTryThrowSuperGrenade(InputAction.CallbackContext context)
+        {
+			print("SuperGrenate");
+            if (_levelManager.IsMobile) return;
+
+            switch (context.phase)
+            {
+                //Performed.
+                case InputActionPhase.Performed:
+                    TryThrowSuperGrenate();
+                    break;
+            }
+        }
+
+        private void TryThrowSuperGrenate()
+        {
+            if (_levelManager.StateGame != LevelManager.State.Game) return;
+
+            //Block while the cursor is unlocked.
+            if (!cursorLocked)
+                return;
+
+            //Try Play.
+            if (CanPlayAnimationGrenadeThrow()) //todo
+                PlayGrenadeThrow();
+        }
+
+        /// <summary>
+        /// Melee.
+        /// </summary>
+        public void OnTryMelee(InputAction.CallbackContext context)
 		{
             if (_levelManager.StateGame != LevelManager.State.Game) return;
 

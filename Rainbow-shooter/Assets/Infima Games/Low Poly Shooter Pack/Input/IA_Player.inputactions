@@ -87,9 +87,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Melee",
+                    "name": "SuperGrenade",
                     "type": "Button",
-                    "id": "ee72309b-00d2-4acf-aa85-8779c255d656",
+                    "id": "aba9c449-1844-400f-8a9f-36fa25ee1d9e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -356,28 +356,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Grenade",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "6ab3c0c1-413c-4596-93a8-b92c2eb0157b",
-                    "path": "<Keyboard>/v",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Melee",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7dd98274-256a-4623-973f-5995b0f261fa",
-                    "path": "<Gamepad>/rightStickPress",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Melee",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -730,6 +708,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ab3c0c1-413c-4596-93a8-b92c2eb0157b",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SuperGrenade",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7dd98274-256a-4623-973f-5995b0f261fa",
+                    "path": "<Gamepad>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SuperGrenade",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
