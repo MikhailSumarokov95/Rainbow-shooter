@@ -123,25 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 6109f4469e82de8409fc5438ab27409e, type: 2}
---- !u!205 &9
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320521233}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.000007429626, y: -0.012886107, z: 0.006057296}
-  m_Size: 0
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.018290125
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 320521235}
-  m_Enabled: 1
 --- !u!1 &25640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,12 +1728,6 @@ MonoBehaviour:
 --- !u!1 &320521233 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 16e474626b69d024f8bf7c812763932a,
-    type: 3}
-  m_PrefabInstance: {fileID: 7447013280479743323}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &320521235 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2300000, guid: 16e474626b69d024f8bf7c812763932a,
     type: 3}
   m_PrefabInstance: {fileID: 7447013280479743323}
   m_PrefabAsset: {fileID: 0}
@@ -18537,7 +18512,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 16e474626b69d024f8bf7c812763932a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 87afcd97595cd02479bfcfd00d66fda9, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16e474626b69d024f8bf7c812763932a, type: 3}
 --- !u!1 &7448017379134100420
