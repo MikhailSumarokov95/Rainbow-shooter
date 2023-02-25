@@ -82,6 +82,17 @@ public static class Progress
     {
         return GSPrefs.GetInt("grenades", 0);
     }
+    
+    public static void SaveSuperGrenades(int value)
+    {
+        GSPrefs.SetInt("superGrenades", value);
+        GSPrefs.Save();
+    }
+
+    public static int LoadSuperGrenades()
+    {
+        return GSPrefs.GetInt("superGrenades", 0);
+    }
 
     public static void SaveSensitivity(float value)
     {

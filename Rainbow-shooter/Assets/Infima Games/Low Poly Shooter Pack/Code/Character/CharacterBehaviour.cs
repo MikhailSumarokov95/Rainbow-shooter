@@ -68,6 +68,10 @@ namespace InfimaGames.LowPolyShooterPack
         /// </summary>
         public abstract int GetGrenadesTotal();
 
+        public abstract int GetSuperGrenadesCurrent();
+
+        public abstract bool IsSuperGrenadeThrow();
+
         /// <summary>
         /// Returns true if the character is running.
         /// </summary>
@@ -154,6 +158,8 @@ namespace InfimaGames.LowPolyShooterPack
         /// Throws a grenade.
         /// </summary>
         public abstract void Grenade();
+
+        public abstract void SuperGrenade();
         /// <summary>
         /// Sets the equipped weapon's magazine to be active or inactive!
         /// </summary>

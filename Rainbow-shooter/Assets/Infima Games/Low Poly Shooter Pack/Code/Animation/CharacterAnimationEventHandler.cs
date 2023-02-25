@@ -67,8 +67,14 @@ namespace InfimaGames.LowPolyShooterPack
 		{
 			//Notify the character.
 			if(playerCharacter != null)
-				playerCharacter.Grenade();
+			{
+				if (playerCharacter.IsSuperGrenadeThrow())
+					playerCharacter.SuperGrenade();
+				
+				else playerCharacter.Grenade();
+            }
 		}
+
 		/// <summary>
 		/// Sets the equipped weapon's magazine to be active or inactive! This function is called from an Animation Event.
 		/// </summary>

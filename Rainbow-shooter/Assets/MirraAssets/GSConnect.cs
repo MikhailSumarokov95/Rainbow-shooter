@@ -45,7 +45,8 @@ public class GSConnect : MonoBehaviour {
     public const string
         GrenadeLauncher = "GrenadeLauncher",
         RocketLauncher = "RocketLauncher",
-        Battlepass = "Battlepass";
+        Battlepass = "Battlepass",
+        SuperGrenade = "SuperGranade";
 
     //Свойства для чтения / записи переменных игрока:
 
@@ -292,6 +293,10 @@ public class GSConnect : MonoBehaviour {
 
             case Battlepass:
                 FindObjectOfType<BattlePassRewarder>(true).BoughtBattlePass();
+                break;
+
+            case SuperGrenade:
+                FindObjectOfType<SuperGrenadeShop>().RewardOne();
                 break;
         }
 

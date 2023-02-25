@@ -6,6 +6,7 @@ using System.Collections;
 using UnityEngine.InputSystem;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace InfimaGames.LowPolyShooterPack
 {
@@ -51,6 +52,11 @@ namespace InfimaGames.LowPolyShooterPack
 		[Tooltip("Grenade Prefab. Spawned when throwing a grenade.")]
 		[SerializeField]
 		private GameObject grenadePrefab;
+
+        [Title(label: "SuperGrenade")]
+        [Tooltip("SuperGrenade Prefab. Spawned when throwing a Supergrenade.")]
+		[SerializeField]
+		private GameObject superGrenadePrefab;
 
 		[Title(label: "Knife")]
 
@@ -250,6 +256,8 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		private int grenadeCount;
 
+		private int superGrenadeCount;
+
 		/// <summary>
 		/// True if the player is holding the aiming button.
 		/// </summary>
@@ -277,7 +285,11 @@ namespace InfimaGames.LowPolyShooterPack
 		/// </summary>
 		private int shotsFired;
 
+		private bool isSuperGrenadeThrow;
+
 		private GrenadeShop[] grenadeShops;
+
+		private SuperGrenadeShop[] superGrenadeShops;
 
 		private LevelManager _levelManager;
 
@@ -346,6 +358,14 @@ namespace InfimaGames.LowPolyShooterPack
 				if (grenadeShop != null)
 					grenadeShop.OnBought += LoadSaveGrenade;
 			}
+			
+			superGrenadeShops = FindObjectsOfType<SuperGrenadeShop>(true);
+
+			foreach (var superGrenadeShop in superGrenadeShops)
+            {
+				if (superGrenadeShop != null)
+                    superGrenadeShop.OnBought += LoadSaveSuperGrenade;
+			}
 
             GSConnect.OnPurchaseWeapon += RefreshInventory;
 
@@ -359,6 +379,12 @@ namespace InfimaGames.LowPolyShooterPack
 			{
 				if (grenadeShop != null)
 					grenadeShop.OnBought -= LoadSaveGrenade;
+			}
+			
+			foreach (var superGrenadeShop in superGrenadeShops)
+			{
+				if (superGrenadeShop != null)
+                    superGrenadeShop.OnBought -= LoadSaveSuperGrenade;
 			}
 
             GSConnect.OnPurchaseWeapon -= RefreshInventory;
@@ -482,6 +508,10 @@ namespace InfimaGames.LowPolyShooterPack
 		/// GetGrenadesTotal.
 		/// </summary>
 		public override int GetGrenadesTotal() => grenadeTotal;
+
+		public override int GetSuperGrenadesCurrent() => superGrenadeCount;
+
+		public override bool IsSuperGrenadeThrow() => isSuperGrenadeThrow;
 
 		/// <summary>
 		/// IsRunning.
@@ -901,6 +931,32 @@ namespace InfimaGames.LowPolyShooterPack
 
 			//We need to have grenades!
 			if (!grenadesUnlimited && grenadeCount == 0)
+				return false;
+
+			//Return.
+			return true;
+		}
+		
+		private bool CanPlayAnimationSuperGrenadeThrow()
+		{
+			//Block.
+			if (holstered || holstering)
+				return false;
+
+			//Block.
+			if (meleeing || throwingGrenade)
+				return false;
+
+			//Block.
+			if (reloading || bolting)
+				return false;
+
+			//Block.
+			if (inspecting)
+				return false;
+
+			//We need to have grenades!
+			if (superGrenadeCount < 1)
 				return false;
 
 			//Return.
@@ -1377,7 +1433,6 @@ namespace InfimaGames.LowPolyShooterPack
         /// </summary>
         public void OnTryThrowSuperGrenade(InputAction.CallbackContext context)
         {
-			print("SuperGrenate");
             if (_levelManager.IsMobile) return;
 
             switch (context.phase)
@@ -1398,8 +1453,11 @@ namespace InfimaGames.LowPolyShooterPack
                 return;
 
             //Try Play.
-            if (CanPlayAnimationGrenadeThrow()) //todo
+            if (CanPlayAnimationSuperGrenadeThrow())
+			{
+                isSuperGrenadeThrow = true;
                 PlayGrenadeThrow();
+            }
         }
 
         /// <summary>
@@ -1667,12 +1725,11 @@ namespace InfimaGames.LowPolyShooterPack
 			//Make sure we have a camera!
 			if (cameraWorld == null)
 				return;
-			
-			//Remove Grenade.
-			if(!grenadesUnlimited)
-				grenadeCount--;
 
-			Progress.SaveGrenades(grenadeCount);
+            if (!grenadesUnlimited)
+                grenadeCount--;
+
+            Progress.SaveGrenades(grenadeCount);
 			
 			//Get Camera Transform.
 			Transform cTransform = cameraWorld.transform;
@@ -1682,6 +1739,32 @@ namespace InfimaGames.LowPolyShooterPack
 			//Throw.
 			Instantiate(grenadePrefab, position, cTransform.rotation);
 		}
+		
+		public override void SuperGrenade()
+		{
+			//Make sure that the grenade is valid, otherwise we'll get errors.
+			if (superGrenadePrefab == null)
+				return;
+
+			//Make sure we have a camera!
+			if (cameraWorld == null)
+				return;
+			
+			superGrenadeCount--;
+
+			Progress.SaveSuperGrenades(superGrenadeCount);
+			
+			isSuperGrenadeThrow = false;
+
+			//Get Camera Transform.
+			Transform cTransform = cameraWorld.transform;
+			//Calculate the throwing location.
+			Vector3 position = cTransform.position;
+			position += cTransform.forward * grenadeSpawnOffset;
+			//Throw.
+			Instantiate(superGrenadePrefab, position, cTransform.rotation);
+		}
+
 		/// <summary>
 		/// SetActiveMagazine.
 		/// </summary>
@@ -1764,6 +1847,11 @@ namespace InfimaGames.LowPolyShooterPack
 		private void LoadSaveGrenade()
         {
 			grenadeCount = Progress.LoadGrenades();
+		}
+		
+		private void LoadSaveSuperGrenade()
+        {
+			superGrenadeCount = Progress.LoadSuperGrenades();
 		}
 
         #endregion
