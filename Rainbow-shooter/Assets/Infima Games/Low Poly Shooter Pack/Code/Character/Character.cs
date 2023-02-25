@@ -332,6 +332,8 @@ namespace InfimaGames.LowPolyShooterPack
 			//Max out the grenades.
 			LoadSaveGrenade();
 
+			LoadSaveSuperGrenade();
+
 			//Hide knife. We do this so we don't see a giant knife stabbing through the character's hands all the time!
 			if (knife != null)
 				knife.SetActive(false);
@@ -352,7 +354,6 @@ namespace InfimaGames.LowPolyShooterPack
 		private void OnEnable()
 		{
 			grenadeShops = FindObjectsOfType<GrenadeShop>(true);
-
 			foreach (var grenadeShop in grenadeShops)
             {
 				if (grenadeShop != null)
@@ -360,7 +361,6 @@ namespace InfimaGames.LowPolyShooterPack
 			}
 			
 			superGrenadeShops = FindObjectsOfType<SuperGrenadeShop>(true);
-
 			foreach (var superGrenadeShop in superGrenadeShops)
             {
 				if (superGrenadeShop != null)
