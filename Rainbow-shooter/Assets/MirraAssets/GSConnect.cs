@@ -46,7 +46,7 @@ public class GSConnect : MonoBehaviour {
         GrenadeLauncher = "GrenadeLauncher",
         RocketLauncher = "RocketLauncher",
         Battlepass = "Battlepass",
-        SuperGrenade = "SuperGranade";
+        SuperGrenade = "SuperGrenade";
 
     //Свойства для чтения / записи переменных игрока:
 

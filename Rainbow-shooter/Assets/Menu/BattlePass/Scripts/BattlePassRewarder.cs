@@ -52,8 +52,8 @@ public class BattlePassRewarder : MonoBehaviour
 
         for (var i = 1; i < levelAchievementMark.Length; i++)
         {
-            levelAchievementMark[i].CloseImage.gameObject.SetActive(!(i <= currentLevel));
-            levelAchievementMark[i].OpenedImage.gameObject.SetActive(i <= currentLevel);
+            levelAchievementMark[i].CloseImage.gameObject.SetActive(!(i <= currentLevel - 1));
+            levelAchievementMark[i].OpenedImage.gameObject.SetActive(i <= currentLevel - 1);
         }
     }
 
